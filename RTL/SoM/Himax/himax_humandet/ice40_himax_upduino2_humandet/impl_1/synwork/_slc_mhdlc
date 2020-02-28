@@ -1,0 +1,11 @@
+compact_cnn_ipgen_cnn_ice40_add
+compact_cnn_ipgen_mle_ice40up_dpram4096x16
+compact_cnn_ipgen_bnn_ice40_gmux
+compact_cnn_ipgen_mle_ice40up_dpram256x16
+compact_cnn_ipgen_mle_ice40up_mul16
+compact_cnn
+dpram256x32
+dpram512x8
+ice40_resetn
+lsc_i2cm_16
+rom_himax_cfg_324_dim

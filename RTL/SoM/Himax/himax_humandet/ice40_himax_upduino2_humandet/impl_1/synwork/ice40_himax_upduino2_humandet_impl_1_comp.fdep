@@ -1,0 +1,397 @@
+#OPTIONS:"|-mixedhdl|-modhint|C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\ice40_himax_upduino2_humandet\\impl_1\\synwork\\_verilog_hintfile|-top|lsc_ml_ice40_himax_humandet_top|-layerid|0|-orig_srs|C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\ice40_himax_upduino2_humandet\\impl_1\\synwork\\ice40_himax_upduino2_humandet_impl_1_comp.srs|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-I|C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\ice40_himax_upduino2_humandet|-I|C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\ice40_himax_upduino2_humandet\\compact_cnn|-I|C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\dpram256x32|-I|C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\dpram512x8|-I|C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\dpram_lcd_fifo|-I|C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\dpram_oled_fifo|-I|C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_1fps|-I|C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_324|-I|C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_324_dim|-I|C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_324_dim_maxfps|-I|C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_324_faceid|-I|C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_lcd|-I|C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_seq|-I|C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\ice40_himax_upduino2_humandet\\impl_1\\|-I|C:\\lscc\\radiant\\1.1\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\radiant\\1.1\\synpbase\\lib\\generic\\ice40up.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\radiant\\1.1\\synpbase\\bin64\\c_ver.exe":1542386272
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\ice40_himax_upduino2_humandet\\impl_1\\synwork\\_verilog_hintfile":1581117711
+#CUR:"C:\\lscc\\radiant\\1.1\\synpbase\\lib\\generic\\ice40up.v":1542386286
+#CUR:"C:\\lscc\\radiant\\1.1\\synpbase\\lib\\vlog\\hypermods.v":1542386298
+#CUR:"C:\\lscc\\radiant\\1.1\\synpbase\\lib\\vlog\\umr_capim.v":1542386298
+#CUR:"C:\\lscc\\radiant\\1.1\\synpbase\\lib\\vlog\\scemi_objects.v":1542386298
+#CUR:"C:\\lscc\\radiant\\1.1\\synpbase\\lib\\vlog\\scemi_pipes.svh":1542386298
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\pmi_iCE40UP.v":1537835135
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\pmi_addsub.v":1536800879
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\../common/adder_subtractor/rtl/lscc_add_sub.v":1536127536
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\pmi_add.v":1536311664
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\../common/adder/rtl/lscc_adder.v":1541985508
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\pmi_complex_mult.v":1536293095
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\../common/complex_mult/rtl/lscc_complex_mult.v":1541985808
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\pmi_counter.v":1536293095
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\../common/counter/rtl/lscc_cntr.v":1536134542
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\pmi_fifo.v":1537785271
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\../common/fifo/rtl/lscc_fifo.v":1538033262
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\pmi_fifo_dc.v":1537785271
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\../common/fifo_dc/rtl/lscc_fifo_dc.v":1548831145
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\pmi_mac.v":1536293095
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\../common/mult_accumulate/rtl/lscc_mult_accumulate.v":1541986074
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\pmi_multaddsubsum.v":1536293095
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v":1536134739
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\pmi_multaddsub.v":1536293095
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\../common/mult_add_sub/rtl/lscc_mult_add_sub.v":1541986289
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\pmi_mult.v":1536293095
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\../common/multiplier/rtl/lscc_multiplier.v":1541986518
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\pmi_ram_dp.v":1537785271
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\../common/ram_dp/rtl/lscc_ram_dp.v":1537928045
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\pmi_ram_dq.v":1537785271
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\../common/ram_dq/rtl/lscc_ram_dq.v":1537928156
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\pmi_rom.v":1539656536
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\../common/rom/rtl/lscc_rom.v":1544667933
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\pmi_sub.v":1536311674
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\../common/subtractor/rtl/lscc_subtractor.v":1541986735
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\pmi_ram_dp_be.v":1539386966
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\../common/ram_dp/rtl/lscc_ram_dp.v":1537928045
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\pmi_ram_dq_be.v":1537785271
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\../common/ram_dq/rtl/lscc_ram_dq.v":1537928156
+#CUR:"C:\\lscc\\radiant\\1.1\\ip\\pmi\\pmi_dsp.v":1536293095
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\humandet_post.v":1581210302
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\ice40_himax_humandet_clkgen.v":1581117659
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\ice40_himax_video_process_64.v":1581117659
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\ice40_himax_video_process_128.v":1581117659
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\ice40_himax_video_process_128_seq.v":1581117659
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\common\\spi_lcd_tx.v":1581117660
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\lsc_ml_ice40_himax_humandet_top.v":1581280949
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\common\\ice40_resetn.v":1581117659
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\common\\lsc_i2cm.v":1581117659
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\common\\lsc_i2cm_16.v":1581117659
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\common\\lsc_i2cm_himax.v":1581117659
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\common\\lsc_uart.v":1581117660
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\common\\spi_loader_tri_spram.v":1581117660
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\common\\spi_loader_spram.v":1581117660
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\common\\spi_loader_wrap.v":1581117661
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\common\\spi_fifo.v":1581117660
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_324\\rtl\\rom_himax_cfg_324.v":1581117665
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_324\\rtl\\core/lscc_ram_dq.v":1581117665
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_324_dim\\rtl\\rom_himax_cfg_324_dim.v":1581117665
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_324_dim\\rtl\\core/lscc_ram_dq.v":1581117665
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_324_dim_maxfps\\rtl\\rom_himax_cfg_324_dim_maxfps.v":1581117666
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_324_dim_maxfps\\rtl\\core/lscc_ram_dq.v":1581117666
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\dpram256x32\\rtl\\dpram256x32.v":1581117662
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\dpram256x32\\rtl\\core/lscc_ram_dp.v":1581117662
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\dpram512x8\\rtl\\dpram512x8.v":1581117662
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\dpram512x8\\rtl\\core/lscc_ram_dp.v":1581117662
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\dpram_lcd_fifo\\rtl\\dpram_lcd_fifo.v":1581117661
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\dpram_lcd_fifo\\rtl\\core/lscc_ram_dp.v":1581117661
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_324_faceid\\rtl\\rom_himax_cfg_324_faceid.v":1581117666
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_324_faceid\\rtl\\core/lscc_ram_dq.v":1581117666
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_lcd\\rtl\\rom_himax_cfg_lcd.v":1581117667
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_lcd\\rtl\\core/lscc_ram_dq.v":1581117667
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_seq\\rtl\\rom_himax_cfg_seq.v":1581117668
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_seq\\rtl\\core/lscc_ram_dq.v":1581117668
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\dpram_oled_fifo\\rtl\\dpram_oled_fifo.v":1581117661
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\dpram_oled_fifo\\rtl\\core/lscc_ram_dp.v":1581117662
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_1fps\\rtl\\rom_himax_cfg_1fps.v":1581117664
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\ice40_himax_upduino2_humandet\\compact_cnn\\rtl\\compact_cnn.v":1581117659
+#CUR:"C:\\Users\\vrang\\Documents\\GitHub\\senseai\\SoM\\Himax\\himax_humandet\\src\\radiant_mem\\rom_himax_cfg_324_dim\\misc/ram256x16_himax_324x324_dim_rom_himax_cfg_324_dim_copy.mem":1581117665
+0			"C:\lscc\radiant\1.1\ip\pmi\pmi_iCE40UP.v" verilog
+1		*	"C:\lscc\radiant\1.1\ip\pmi\pmi_addsub.v" verilog
+2		*	"C:\lscc\radiant\1.1\ip\pmi\../common/adder_subtractor/rtl\lscc_add_sub.v" verilog
+3		*	"C:\lscc\radiant\1.1\ip\pmi\pmi_add.v" verilog
+4		*	"C:\lscc\radiant\1.1\ip\pmi\../common/adder/rtl\lscc_adder.v" verilog
+5		*	"C:\lscc\radiant\1.1\ip\pmi\pmi_complex_mult.v" verilog
+6		*	"C:\lscc\radiant\1.1\ip\pmi\../common/complex_mult/rtl\lscc_complex_mult.v" verilog
+7		*	"C:\lscc\radiant\1.1\ip\pmi\pmi_counter.v" verilog
+8		*	"C:\lscc\radiant\1.1\ip\pmi\../common/counter/rtl\lscc_cntr.v" verilog
+9		*	"C:\lscc\radiant\1.1\ip\pmi\pmi_fifo.v" verilog
+10		*	"C:\lscc\radiant\1.1\ip\pmi\../common/fifo/rtl\lscc_fifo.v" verilog
+11		*	"C:\lscc\radiant\1.1\ip\pmi\pmi_fifo_dc.v" verilog
+12		*	"C:\lscc\radiant\1.1\ip\pmi\../common/fifo_dc/rtl\lscc_fifo_dc.v" verilog
+13		*	"C:\lscc\radiant\1.1\ip\pmi\pmi_mac.v" verilog
+14		*	"C:\lscc\radiant\1.1\ip\pmi\../common/mult_accumulate/rtl\lscc_mult_accumulate.v" verilog
+15		*	"C:\lscc\radiant\1.1\ip\pmi\pmi_multaddsubsum.v" verilog
+16		*	"C:\lscc\radiant\1.1\ip\pmi\../common/mult_add_sub_sum/rtl\lscc_mult_add_sub_sum.v" verilog
+17		*	"C:\lscc\radiant\1.1\ip\pmi\pmi_multaddsub.v" verilog
+18		*	"C:\lscc\radiant\1.1\ip\pmi\../common/mult_add_sub/rtl\lscc_mult_add_sub.v" verilog
+19		*	"C:\lscc\radiant\1.1\ip\pmi\pmi_mult.v" verilog
+20		*	"C:\lscc\radiant\1.1\ip\pmi\../common/multiplier/rtl\lscc_multiplier.v" verilog
+21		*	"C:\lscc\radiant\1.1\ip\pmi\pmi_ram_dp.v" verilog
+22		*	"C:\lscc\radiant\1.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v" verilog
+23		*	"C:\lscc\radiant\1.1\ip\pmi\pmi_ram_dq.v" verilog
+24		*	"C:\lscc\radiant\1.1\ip\pmi\../common/ram_dq/rtl\lscc_ram_dq.v" verilog
+25		*	"C:\lscc\radiant\1.1\ip\pmi\pmi_rom.v" verilog
+26		*	"C:\lscc\radiant\1.1\ip\pmi\../common/rom/rtl\lscc_rom.v" verilog
+27		*	"C:\lscc\radiant\1.1\ip\pmi\pmi_sub.v" verilog
+28		*	"C:\lscc\radiant\1.1\ip\pmi\../common/subtractor/rtl\lscc_subtractor.v" verilog
+29		*	"C:\lscc\radiant\1.1\ip\pmi\pmi_ram_dp_be.v" verilog
+30		*	"C:\lscc\radiant\1.1\ip\pmi\pmi_ram_dq_be.v" verilog
+31		*	"C:\lscc\radiant\1.1\ip\pmi\pmi_dsp.v" verilog
+32			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\humandet_post.v" verilog
+33			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\ice40_himax_humandet_clkgen.v" verilog
+34			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\ice40_himax_video_process_64.v" verilog
+35			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\ice40_himax_video_process_128.v" verilog
+36			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\ice40_himax_video_process_128_seq.v" verilog
+37			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\spi_lcd_tx.v" verilog
+38			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v" verilog
+39			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\ice40_resetn.v" verilog
+40			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\lsc_i2cm.v" verilog
+41			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\lsc_i2cm_16.v" verilog
+42			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\lsc_i2cm_himax.v" verilog
+43			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\lsc_uart.v" verilog
+44			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\spi_loader_tri_spram.v" verilog
+45			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\spi_loader_spram.v" verilog
+46			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\spi_loader_wrap.v" verilog
+47			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\spi_fifo.v" verilog
+48			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_324\rtl\rom_himax_cfg_324.v" verilog
+49		*	"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_324\rtl\core\lscc_ram_dq.v" verilog
+50			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_324_dim\rtl\rom_himax_cfg_324_dim.v" verilog
+51		*	"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_324_dim\rtl\core\lscc_ram_dq.v" verilog
+52			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_324_dim_maxfps\rtl\rom_himax_cfg_324_dim_maxfps.v" verilog
+53		*	"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_324_dim_maxfps\rtl\core\lscc_ram_dq.v" verilog
+54			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\dpram256x32\rtl\dpram256x32.v" verilog
+55		*	"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\dpram256x32\rtl\core\lscc_ram_dp.v" verilog
+56			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\dpram512x8\rtl\dpram512x8.v" verilog
+57		*	"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\dpram512x8\rtl\core\lscc_ram_dp.v" verilog
+58			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\dpram_lcd_fifo\rtl\dpram_lcd_fifo.v" verilog
+59		*	"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\dpram_lcd_fifo\rtl\core\lscc_ram_dp.v" verilog
+60			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_324_faceid\rtl\rom_himax_cfg_324_faceid.v" verilog
+61		*	"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_324_faceid\rtl\core\lscc_ram_dq.v" verilog
+62			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_lcd\rtl\rom_himax_cfg_lcd.v" verilog
+63		*	"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_lcd\rtl\core\lscc_ram_dq.v" verilog
+64			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_seq\rtl\rom_himax_cfg_seq.v" verilog
+65		*	"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_seq\rtl\core\lscc_ram_dq.v" verilog
+66			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\dpram_oled_fifo\rtl\dpram_oled_fifo.v" verilog
+67		*	"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\dpram_oled_fifo\rtl\core\lscc_ram_dp.v" verilog
+68			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_1fps\rtl\rom_himax_cfg_1fps.v" verilog
+69			"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\ice40_himax_upduino2_humandet\compact_cnn\rtl\compact_cnn.v" verilog
+#Dependency Lists(Uses List)
+0 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+1 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 0
+2 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 1 0
+3 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 2 1 0
+4 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 3 2 1 0
+5 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 4 3 2 1 0
+6 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 5 4 3 2 1 0
+7 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 6 5 4 3 2 1 0
+8 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 7 6 5 4 3 2 1 0
+9 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 8 7 6 5 4 3 2 1 0
+10 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 9 8 7 6 5 4 3 2 1 0
+11 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 10 9 8 7 6 5 4 3 2 1 0
+12 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 11 10 9 8 7 6 5 4 3 2 1 0
+13 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 12 11 10 9 8 7 6 5 4 3 2 1 0
+14 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+15 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+16 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+17 31 30 29 28 27 26 25 24 23 22 21 20 19 18 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+18 0 31 30 29 28 27 26 25 24 23 22 21 20 19 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+19 31 30 29 28 27 26 25 24 23 22 21 20 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+20 0 31 30 29 28 27 26 25 24 23 22 21 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+21 31 30 29 28 27 26 25 24 23 22 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+22 31 30 22 29 28 27 26 25 24 23 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+23 31 30 29 28 27 26 25 24 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+24 31 24 30 29 28 27 26 25 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+25 31 30 29 28 27 26 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+26 31 30 29 28 27 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+27 31 30 29 28 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+28 31 30 29 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+29 31 30 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+30 31 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+32 -1
+33 -1
+34 55 54
+35 55 54
+36 35 55 54
+37 59 58 67 66
+38 35 36 47 69 32 34 46 43 42 39 33
+39 -1
+40 -1
+41 -1
+42 49 48 68 65 64 63 62 61 60 53 52 51 50 41
+43 57 56
+44 -1
+45 -1
+46 45 44
+47 55 54 43
+48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 49
+49 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+50 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 51
+51 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+52 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 53
+53 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+54 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 55
+55 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+56 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 57
+57 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+58 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 59
+59 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+60 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 61
+61 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+62 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 63
+63 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+64 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 65
+65 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+66 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 67
+67 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+68 -1
+69 37 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+#Dependency Lists(Users Of)
+0 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+1 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 0
+2 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 1 0
+3 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 2 1 0
+4 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 3 2 1 0
+5 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 4 3 2 1 0
+6 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 5 4 3 2 1 0
+7 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 6 5 4 3 2 1 0
+8 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 7 6 5 4 3 2 1 0
+9 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 8 7 6 5 4 3 2 1 0
+10 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 9 8 7 6 5 4 3 2 1 0
+11 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 10 9 8 7 6 5 4 3 2 1 0
+12 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 11 10 9 8 7 6 5 4 3 2 1 0
+13 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 12 11 10 9 8 7 6 5 4 3 2 1 0
+14 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+15 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+16 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+17 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+18 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+19 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+20 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+21 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+22 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+23 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+24 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+25 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 26 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+26 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 27 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+27 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 28 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+28 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 29 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+29 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 30 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+30 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 31 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+31 69 67 66 65 64 63 62 61 60 59 58 57 56 55 54 53 52 51 50 49 48 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+32 38
+33 38
+34 38
+35 38 36
+36 38
+37 69
+38 -1
+39 38
+40 -1
+41 42
+42 38
+43 47 38
+44 46
+45 46
+46 38
+47 38
+48 42
+49 48 42
+50 42
+51 50 42
+52 42
+53 52 42
+54 47 36 35 34
+55 54 47 36 35 34
+56 43
+57 56 43
+58 37
+59 58 37
+60 42
+61 60 42
+62 42
+63 62 42
+64 42
+65 64 42
+66 37
+67 66 37
+68 42
+69 38
+#Design Unit to File Association
+module work compact_cnn_ipgen_cnn_ice40_scale_eu 69
+module work compact_cnn_ipgen_cnn_ice40_mul 69
+module work compact_cnn_ipgen_cnn_ice40_fc_eu 69
+module work compact_cnn_ipgen_ice40_mul16_reg 69
+module work compact_cnn_ipgen_mle_ice40up_mul8_dual 69
+module work compact_cnn_ipgen_cnn_ice40_cu 69
+module work compact_cnn_ipgen_cnn_ice40_conv_eu_8b 69
+module work compact_cnn_ipgen_cnn_ice40_mul_8b_dual 69
+module work compact_cnn_ipgen_cnn_ice40_conv_eu 69
+module work compact_cnn_ipgen_cnn_ice40_mul_mux 69
+module work compact_cnn_ipgen_cnn_ice40_addrgen_stg 69
+module work compact_cnn_ipgen_cnn_ice40_addrgen_conv 69
+module work compact_cnn_ipgen_cnn_ice40_add 69
+module work compact_cnn_ipgen_bnn_ice40_max_pool_eu 69
+module work compact_cnn_ipgen_bnn_ice40_gmux 69
+module work compact_cnn_ipgen_bnn_ice40_fc_eu 69
+module work compact_cnn_ipgen_bnn_ice40_cu 69
+module work compact_cnn_ipgen_bnn_ice40_conv_eu 69
+module work compact_cnn_ipgen_bnn_xnor_ps 69
+module work compact_cnn_ipgen_bnn_ice40_bin 69
+module work compact_cnn_ipgen_bnn_ice40_addrgen_stg 69
+module work compact_cnn_ipgen_bnn_ice40_addrgen_conv 69
+module work compact_cnn_ipgen_bnn_ice40_addrgen_bin 69
+module work compact_cnn_ipgen_bnn_ice40_add 69
+module work compact_cnn_ipgen_mle_ice40up_mul16 69
+module work compact_cnn_ipgen_lscc_multiplier 69
+module work compact_cnn_ipgen_lscc_multiplier_dsp 69
+module work compact_cnn_ipgen_lscc_multiplier_lut 69
+module work compact_cnn_ipgen_mle_ice40up_dpram4096x16 69
+module work compact_cnn_ipgen_mle_ice40up_dpram4096x8 69
+module work compact_cnn_ipgen_mle_ice40up_dpram2048x16 69
+module work compact_cnn_ipgen_mle_ice40up_dpram1024x16 69
+module work compact_cnn_ipgen_mle_ice40up_dpram256x16 69
+module work compact_cnn_ipgen_lscc_ram_dp 69
+module work compact_cnn_ipgen_lscc_ml_ice40_bnn 69
+module work compact_cnn_ipgen_lscc_ml_ice40_cnn 69
+module work compact_cnn_ipgen_lscc_compact_cnn_accelerator 69
+module work rom_himax_cfg_1fps_ipgen_lscc_rom 68
+module work spi_loader_spram 45
+module work spi_loader_tri_spram 44
+module work dpram512x8 56
+module work rom_himax_cfg_324 48
+module work rom_himax_cfg_1fps 68
+module work rom_himax_cfg_seq 64
+module work rom_himax_cfg_lcd 62
+module work rom_himax_cfg_324_faceid 60
+module work rom_himax_cfg_324_dim_maxfps 52
+module work rom_himax_cfg_324_dim 50
+module work lsc_i2cm_16 41
+module work lsc_i2cm 40
+module work lsc_ml_ice40_himax_humandet_top 38
+module work compact_cnn 69
+module work spi_loader_wrap 46
+module work spi_fifo 47
+module work lsc_uart 43
+module work lsc_i2cm_himax 42
+module work ice40_resetn 39
+module work spi_lcd_tx 37
+module work dpram_lcd_fifo 58
+module work dpram_oled_fifo 66
+module work ice40_himax_video_process_128_seq 36
+module work ice40_himax_video_process_128 35
+module work ice40_himax_video_process_64 34
+module work dpram256x32 54
+module work ice40_himax_humandet_clkgen 33
+module work humandet_post 32
+module work pmi_dsp 31
+module work pmi_ram_dq_be 30
+module work pmi_ram_dp_be 29
+module work pmi_sub 27
+module work pmi_rom 25
+module work lscc_rom 26
+module work pmi_ram_dq 23
+module work lscc_ram_dq 24
+module work lscc_dq_core 24
+module work pmi_ram_dp 21
+module work lscc_ram_dp 22
+module work lscc_ram_dp_core 22
+module work pmi_mult 19
+module work pmi_multaddsub 17
+module work pmi_multaddsubsum 15
+module work lscc_mult_add_sub_sum 16
+module work pmi_mac 13
+module work lscc_mult_accumulate 14
+module work pmi_fifo_dc 11
+module work lscc_fifo_mem_core 12
+module work lscc_fifo_dc 12
+module work lscc_fifo_mem 12
+module work pmi_fifo 9
+module work lscc_fifo 10
+module work pmi_counter 7
+module work lscc_cntr 8
+module work pmi_complex_mult 5
+module work lscc_multiplier_dsp 6
+module work lscc_multiplier_lut 6
+module work lscc_multiplier 6
+module work lscc_complex_mult 6
+module work lscc_mult_add_sub 6
+module work pmi_add 3
+module work pmi_addsub 1
+module work lscc_add_sub 2
+module work lscc_subtractor 28
+module work lscc_adder 4

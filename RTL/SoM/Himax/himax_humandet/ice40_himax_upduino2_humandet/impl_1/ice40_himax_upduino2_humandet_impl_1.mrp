@@ -1,0 +1,471 @@
+Lattice Mapping Report File for Design Module
+     'ice40_himax_upduino2_humandet_impl_1'
+
+Target Vendor:        LATTICE
+Target Device:        iCE40UP5KSG48
+Target Performance:   High-Performance_1.2V
+
+Mapper:    version Radiant Software (64-bit) 1.1.0.165.1  Patch Version(s) 6251
+Mapped on: Sun Feb 09 12:43:16 2020
+
+Design Information
+------------------
+
+Command line:   map ice40_himax_upduino2_humandet_impl_1_syn.udb C:/Users/vrang/
+     Documents/GitHub/senseai/SoM/Himax/himax_humandet/ice40_himax_upduino2_huma
+     ndet/himax_som.pdc -o ice40_himax_upduino2_humandet_impl_1.udb -gui
+
+Design Summary
+--------------
+
+   Number of slice registers: 2406 out of  5280 (46%)
+   Number of I/O registers:      6 out of   117 (5%)
+   Number of LUT4s:           4423 out of  5280 (84%)
+      Number of logic LUT4s:             2240
+      Number of inserted feedthru LUT4s: 959
+      Number of replicated LUT4s:        108
+      Number of ripple logic:            558 (1116 LUT4s)
+   Number of IO sites used:   26 out of 39 (67%)
+      Number of IO sites used for general PIOs: 23
+      Number of IO sites used for I3Cs: 0 out of 2 (0%)
+      Number of IO sites used for PIOs+I3Cs: 23 out of 36 (64%)
+      (note: If I3C is not used, its site can be used as general PIO)
+      Number of IO sites used for OD+RGB IO buffers: 3 out of 3 (100%)
+   Number of DSPs:             7 out of 8 (87%)
+   Number of I2Cs:             0 out of 2 (0%)
+   Number of High Speed OSCs:  1 out of 1 (100%)
+   Number of Low Speed OSCs:   0 out of 1 (0%)
+   Number of RGB PWM:          0 out of 1 (0%)
+   Number of RGB Drivers:      1 out of 1 (100%)
+   Number of SCL FILTERs:      0 out of 2 (0%)
+   Number of SRAMs:            4 out of 4 (100%)
+   Number of WARMBOOTs:        0 out of 1 (0%)
+   Number of SPIs:             0 out of 2 (0%)
+   Number of EBRs:             25 out of 30 (83%)
+   Number of PLLs:             0 out of 1 (0%)
+   Number of Clocks:  2
+      Net clk: 2189 loads, 2189 rising, 0 falling (Driver: Pin
+     genblk1.u_hfosc.osc_inst/CLKHF)
+      Net pclk_c: 100 loads, 100 rising, 0 falling (Driver: Port cam_pclk)
+   Number of Clock Enables:  58
+      Net VCC: 72 loads, 0 SLICEs
+      Net u_resetn/u_r_resetn0_RNO: 1 loads, 1 SLICEs
+      Net u_resetn/un3_cnt_en_i: 8 loads, 8 SLICEs
+      Net u_lsc_i2cm_himax/N_46_0: 16 loads, 16 SLICEs
+      Net u_lsc_i2cm_himax/u_lsc_i2cm/un1_tick_0_i: 5 loads, 5 SLICEs
+      Net u_lsc_i2cm_himax/u_lsc_i2cm/i2c_running_i: 25 loads, 25 SLICEs
+      Net g_on_en_uart.u_lsc_uart/fifo_full_NE_0_i: 16 loads, 16 SLICEs
+      Net g_on_en_uart.u_lsc_uart/fifo_rd: 7 loads, 7 SLICEs
+      Net g_on_en_uart.u_lsc_uart/un1_fifo_raddr_clk_0_data_tmp[5]: 12 loads, 12
+     SLICEs
+      Net g_on_en_uart.u_lsc_uart/rx_sample_tick_0: 8 loads, 8 SLICEs
+      Net g_on_en_uart.u_lsc_uart/fifo_we: 2 loads, 0 SLICEs
+
+                                    Page 1
+
+
+
+
+
+Design Summary (cont)
+---------------------
+      Net genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/en: 19 loads, 19
+     SLICEs
+      Net genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/wd_cnte_0_i: 9
+     loads, 9 SLICEs
+      Net genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/bit_cnt7: 16
+     loads, 16 SLICEs
+      Net genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/fifo_rdata_h3:
+     16 loads, 16 SLICEs
+      Net genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/fifo_we1: 1
+     loads, 0 SLICEs
+      Net genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/fifo_we2: 1
+     loads, 0 SLICEs
+      Net genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/fifo_we0: 1
+     loads, 0 SLICEs
+      Net genblk5.u_ice40_himax_video_process_64/r_waddr00e_0_i: 7 loads, 7
+     SLICEs
+      Net genblk5.u_ice40_himax_video_process_64/r_waddr01e_0_i: 7 loads, 7
+     SLICEs
+      Net genblk5.u_ice40_himax_video_process_64/r_waddr10e_0_i: 7 loads, 7
+     SLICEs
+      Net genblk5.u_ice40_himax_video_process_64/m52_N_10_mux: 5 loads, 5 SLICEs
+      Net w_we: 24 loads, 24 SLICEs
+      Net genblk5.u_ice40_himax_video_process_64/un1_r_accu16_0_i: 31 loads, 31
+     SLICEs
+      Net genblk5.u_ice40_himax_video_process_64/N_94_mux: 1 loads, 1 SLICEs
+      Net genblk5.u_ice40_himax_video_process_64/N_96_mux: 1 loads, 1 SLICEs
+      Net genblk5.u_ice40_himax_video_process_64/pix_wr: 4 loads, 0 SLICEs
+      Net genblk5.u_ice40_himax_video_process_64/c_we: 4 loads, 0 SLICEs
+      Net u_speedsignal_post/un1_max_val9_0_0: 16 loads, 16 SLICEs
+      Net secured_signal_1863: 51 loads, 51 SLICEs
+      Net secured_signal_2096: 30 loads, 30 SLICEs
+      Net secured_signal_2113: 15 loads, 15 SLICEs
+      Net secured_signal_2157: 18 loads, 18 SLICEs
+      Net secured_signal_2211: 1 loads, 0 SLICEs
+      Net secured_signal_2213: 7 loads, 7 SLICEs
+      Net secured_signal_2471: 2 loads, 0 SLICEs
+      Net secured_signal_2472: 2 loads, 0 SLICEs
+      Net secured_signal_2921: 16 loads, 16 SLICEs
+      Net secured_signal_2997: 13 loads, 13 SLICEs
+      Net secured_signal_3011: 25 loads, 25 SLICEs
+      Net secured_signal_3088: 6 loads, 6 SLICEs
+      Net secured_signal_3111: 6 loads, 6 SLICEs
+      Net secured_signal_3134: 1 loads, 1 SLICEs
+      Net secured_signal_3136: 1 loads, 1 SLICEs
+      Net secured_signal_3658: 16 loads, 0 SLICEs
+      Net secured_signal_3659: 16 loads, 0 SLICEs
+      Net secured_signal_3863: 88 loads, 88 SLICEs
+      Net secured_signal_3923: 4 loads, 0 SLICEs
+      Net secured_signal_4780: 79 loads, 79 SLICEs
+      Net secured_signal_5222: 32 loads, 32 SLICEs
+      Net secured_signal_5587: 64 loads, 64 SLICEs
+      Net secured_signal_5950: 16 loads, 16 SLICEs
+      Net secured_signal_6026: 2 loads, 0 SLICEs
+      Net secured_signal_6157: 38 loads, 38 SLICEs
+      Net secured_signal_6256: 16 loads, 16 SLICEs
+      Net secured_signal_6773: 1 loads, 1 SLICEs
+      Net secured_signal_6775: 8 loads, 8 SLICEs
+
+                                    Page 2
+
+
+
+
+
+Design Summary (cont)
+---------------------
+      Net secured_signal_6784: 32 loads, 32 SLICEs
+   Number of LSRs:  26
+      Net resetn_i: 238 loads, 238 SLICEs
+      Net cam_de_p_i: 8 loads, 8 SLICEs
+      Net w_rd_done: 33 loads, 33 SLICEs
+      Net w_fill_i: 12 loads, 12 SLICEs
+      Net genblk5.u_ice40_himax_video_process_64/un1_o_width3_1_0: 5 loads, 5
+     SLICEs
+      Net secured_signal_1768: 192 loads, 192 SLICEs
+      Net secured_signal_1773: 16 loads, 16 SLICEs
+      Net secured_signal_1828: 8 loads, 8 SLICEs
+      Net secured_signal_2047: 28 loads, 28 SLICEs
+      Net secured_signal_2063: 9 loads, 9 SLICEs
+      Net secured_signal_2365: 16 loads, 16 SLICEs
+      Net secured_signal_2782: 38 loads, 38 SLICEs
+      Net secured_signal_2807: 15 loads, 15 SLICEs
+      Net secured_signal_2848: 15 loads, 15 SLICEs
+      Net secured_signal_2889: 16 loads, 16 SLICEs
+      Net secured_signal_2965: 26 loads, 26 SLICEs
+      Net secured_signal_3208: 16 loads, 16 SLICEs
+      Net secured_signal_3742: 393 loads, 393 SLICEs
+      Net secured_signal_3775: 32 loads, 32 SLICEs
+      Net secured_signal_3980: 8 loads, 8 SLICEs
+      Net secured_signal_5460: 16 loads, 16 SLICEs
+      Net secured_signal_5890: 8 loads, 8 SLICEs
+      Net secured_signal_5923: 5 loads, 5 SLICEs
+      Net secured_signal_6257: 16 loads, 16 SLICEs
+      Net secured_signal_6629: 34 loads, 34 SLICEs
+      Net secured_signal_6632: 16 loads, 16 SLICEs
+   Top 10 highest fanout non-clock nets:
+      Net secured_signal_3742: 413 loads
+      Net resetn_i: 238 loads
+      Net secured_signal_1768: 196 loads
+      Net VCC: 168 loads
+      Net
+     genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/fifo_raddr_hi[0]: 105
+     loads
+      Net
+     genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/fifo_raddr_hi[1]: 89
+     loads
+      Net secured_signal_3863: 88 loads
+      Net secured_signal_3918: 81 loads
+      Net secured_signal_4780: 79 loads
+      Net secured_signal_6350: 67 loads
+
+
+
+
+   Number of warnings:  35
+   Number of errors:    0
+
+Design Errors/Warnings
+----------------------
+
+WARNING - map: No port matched 'gpio[0]'.
+WARNING - map: Can't resolve object 'gpio[0]' in constraint 'ldc_set_location
+     -site {46} [get_ports {gpio[0]}]'.
+
+                                    Page 3
+
+
+
+
+
+Design Errors/Warnings (cont)
+-----------------------------
+WARNING - map: No port matched 'gpio[1]'.
+WARNING - map: Can't resolve object 'gpio[1]' in constraint 'ldc_set_location
+     -site {47} [get_ports {gpio[1]}]'.
+WARNING - map: No port matched 'gpio[2]'.
+WARNING - map: Can't resolve object 'gpio[2]' in constraint 'ldc_set_location
+     -site {48} [get_ports {gpio[2]}]'.
+WARNING - map: No port matched 'gpio_*'.
+WARNING - map: Can't resolve object 'gpio_*' in constraint 'ldc_set_port -iobuf
+     {IO_TYPE=LVCMOS33} [get_ports gpio_*]'.
+WARNING - map: No port matched 'imager_snn'.
+WARNING - map: Can't resolve object 'imager_snn' in constraint 'ldc_set_location
+     -site {43} [get_ports imager_snn]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {46} [get_ports
+     {gpio[0]}]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {47} [get_ports
+     {gpio[1]}]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {48} [get_ports
+     {gpio[2]}]'.
+WARNING - map: Remove invalid constraint 'ldc_set_port -iobuf {IO_TYPE=LVCMOS33}
+     [get_ports gpio_*]'.
+WARNING - map: Remove invalid constraint 'ldc_set_location -site {43} [get_ports
+     imager_snn]'.
+WARNING - map: Top module port 'debug_scl' does not connect to anything.
+WARNING - map: Top module port 'debug_sda' does not connect to anything.
+WARNING - map: Top module port 'host_sck' does not connect to anything.
+WARNING - map: Top module port 'host_ssn' does not connect to anything.
+WARNING - map: Top module port 'host_mosi' does not connect to anything.
+WARNING - map: Top module port 'i2s_dat' does not connect to anything.
+WARNING - map: Top module port 'imu_intr' does not connect to anything.
+WARNING - map: Top module port 'sensor_miso' does not connect to anything.
+WARNING - map: Top module port 'mem_sio2' does not connect to anything.
+WARNING - map: Top module port 'mem_sio3' does not connect to anything.
+WARNING - map: Top module port 'debug_scl' does not connect to anything.
+WARNING - map: Top module port 'debug_sda' does not connect to anything.
+WARNING - map: Top module port 'host_sck' does not connect to anything.
+WARNING - map: Top module port 'host_ssn' does not connect to anything.
+WARNING - map: Top module port 'host_mosi' does not connect to anything.
+WARNING - map: Top module port 'i2s_dat' does not connect to anything.
+WARNING - map: Top module port 'imu_intr' does not connect to anything.
+WARNING - map: Top module port 'sensor_miso' does not connect to anything.
+WARNING - map: Top module port 'mem_sio2' does not connect to anything.
+WARNING - map: Top module port 'mem_sio3' does not connect to anything.
+
+IO (PIO) Attributes
+-------------------
+
++---------------------+-----------+-----------+-------+-------+-----------+
+| IO Name             | Direction | Levelmode |  IO   |  IO   | Special   |
+|                     |           |  IO_TYPE  |  REG  |  DDR  | IO Buffer |
++---------------------+-----------+-----------+-------+-------+-----------+
+| spi_clk             | BIDIR     | LVCMOS18  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| REDn                | OUTPUT    | NA        |       |       | RGB       |
++---------------------+-----------+-----------+-------+-------+-----------+
+| GRNn                | OUTPUT    | NA        |       |       | RGB       |
++---------------------+-----------+-----------+-------+-------+-----------+
+| BLUn                | OUTPUT    | NA        |       |       | RGB       |
+
+                                    Page 4
+
+
+
+
+
+IO (PIO) Attributes (cont)
+--------------------------
++---------------------+-----------+-----------+-------+-------+-----------+
+| sram_ssn            | OUTPUT    | LVCMOS18  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| imager_ssn          | OUTPUT    | LVCMOS18  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| i2s_ws              | OUTPUT    | LVCMOS18  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| i2s_sck             | OUTPUT    | LVCMOS18  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| host_miso           | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| host_intr           | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| spi_mosi            | OUTPUT    | LVCMOS18  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| spi_css             | OUTPUT    | LVCMOS18  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| uart_txd            | OUTPUT    | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_sda             | OUTPUT    | LVCMOS18  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_scl             | OUTPUT    | LVCMOS18  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_mclk            | OUTPUT    | LVCMOS18  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_trig            | OUTPUT    | LVCMOS18  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| spi_miso            | INPUT     | LVCMOS18  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| uart_rxd            | INPUT     | LVCMOS33  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_data[3]         | INPUT     | LVCMOS18  | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_data[2]         | INPUT     | LVCMOS18  | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_data[1]         | INPUT     | LVCMOS18  | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_data[0]         | INPUT     | LVCMOS18  | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_vsync           | INPUT     | LVCMOS18  | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_hsync           | INPUT     | LVCMOS18  | I     |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+| cam_pclk            | INPUT     | LVCMOS18  |       |       |           |
++---------------------+-----------+-----------+-------+-------+-----------+
+
+OSC Summary
+-----------
+
+OSC 1:                                 Pin/Node Value
+  OSC Instance Name:                            genblk1.u_hfosc.osc_inst
+  OSC Type:                                     HSOSC_CORE
+  Power UP:                            NODE     VCC
+  Enable Signal:                       NODE     VCC
+  OSC Output:                          NODE     clk
+  DIV Setting:                                  0b01
+
+
+                                    Page 5
+
+
+
+
+
+ASIC Components
+---------------
+
+Instance Name: RGB_DRIVER.RGB_CORE_inst
+         Type: RGBA_DRV
+Instance Name: u_io_cam_de
+         Type: IOLOGIC
+Instance Name: u_io_cam_vsync
+         Type: IOLOGIC
+Instance Name: u_io_cam_data[3]
+         Type: IOLOGIC
+Instance Name: u_io_cam_data[2]
+         Type: IOLOGIC
+Instance Name: u_io_cam_data[1]
+         Type: IOLOGIC
+Instance Name: u_io_cam_data[0]
+         Type: IOLOGIC
+Instance Name: u_lsc_i2cm_himax.genblk1.u_rom_himax_cfg.lscc_ram_dq_inst.mem_mem
+     _0_0.ebr_inst
+         Type: EBR
+Instance Name: g_on_en_uart.u_lsc_uart.genblk1.u_ram512x8_0.lscc_ram_dp_inst.mem
+     _mem_0_0_cZ.ebr_inst
+         Type: EBR
+Instance Name: genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.u_spram16k_
+     16_2.vfb_b_inst
+         Type: SRAM
+Instance Name: genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.u_spram16k_
+     16_1.vfb_b_inst
+         Type: SRAM
+Instance Name: genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader.u_spram16k_
+     16_0.vfb_b_inst
+         Type: SRAM
+Instance Name: genblk5.u_ice40_himax_video_process_64.u_ram256x32_accu0.lscc_ram
+     _dp_inst.mem_mem_0_1.ebr_inst
+         Type: EBR
+Instance Name: genblk5.u_ice40_himax_video_process_64.u_ram256x32_accu0.lscc_ram
+     _dp_inst.mem_mem_0_0.ebr_inst
+         Type: EBR
+Instance Name: genblk5.u_ice40_himax_video_process_64.u_ram256x32_ro.lscc_ram_dp
+     _inst.mem_mem_0_0.ebr_inst
+         Type: EBR
+Instance Name: genblk5.u_ice40_himax_video_process_64.u_ram256x32_ro.lscc_ram_dp
+     _inst.mem_mem_0_1.ebr_inst
+         Type: EBR
+Instance Name: secured_comp_1990
+         Type: SRAM
+Instance Name: secured_comp_2666
+         Type: EBR
+Instance Name: secured_comp_2667
+         Type: EBR
+Instance Name: secured_comp_2668
+         Type: EBR
+Instance Name: secured_comp_2669
+         Type: EBR
+Instance Name: secured_comp_2670
+         Type: EBR
+Instance Name: secured_comp_2671
+         Type: EBR
+Instance Name: secured_comp_2672
+
+                                    Page 6
+
+
+
+
+
+ASIC Components (cont)
+----------------------
+         Type: EBR
+Instance Name: secured_comp_2673
+         Type: EBR
+Instance Name: secured_comp_2674
+         Type: EBR
+Instance Name: secured_comp_2675
+         Type: EBR
+Instance Name: secured_comp_2676
+         Type: EBR
+Instance Name: secured_comp_2677
+         Type: EBR
+Instance Name: secured_comp_2678
+         Type: EBR
+Instance Name: secured_comp_2679
+         Type: EBR
+Instance Name: secured_comp_2680
+         Type: EBR
+Instance Name: secured_comp_2681
+         Type: EBR
+Instance Name: secured_comp_3438
+         Type: DSP
+Instance Name: secured_comp_3501
+         Type: DSP
+Instance Name: secured_comp_3564
+         Type: DSP
+Instance Name: secured_comp_3627
+         Type: DSP
+Instance Name: secured_comp_3659
+         Type: DSP
+Instance Name: secured_comp_3767
+         Type: EBR
+Instance Name: secured_comp_3839
+         Type: EBR
+Instance Name: secured_comp_4186
+         Type: DSP
+Instance Name: secured_comp_4422
+         Type: EBR
+Instance Name: secured_comp_4828
+         Type: DSP
+Instance Name: genblk1.u_hfosc.osc_inst
+         Type: HFOSC
+
+Run Time and Memory Usage
+-------------------------
+
+   Total CPU Time: 2 secs
+   Total REAL Time: 2 secs
+   Peak Memory Usage: 163 MB
+
+
+
+
+
+
+
+
+
+
+                                    Page 7
+
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995
+     AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent
+     Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems
+     All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor
+     Corporation,  All rights reserved.

@@ -1,0 +1,339 @@
+Copyright 2015 Lattice Semiconductor Corporation, All Rights Reserved
+Sun Feb 09 12:43:25 2020
+
+Command Line: par -w -n 1 -t 1 -s 1 -cores 1 -exp parPathBased=ON \
+	ice40_himax_upduino2_humandet_impl_1_map.udb \
+	ice40_himax_upduino2_humandet_impl_1.udb 
+
+
+Level/       Number       Worst        Timing       Worst        Timing       Run          Run
+Cost [ncd]   Unrouted     Slack        Score        Slack(hold)  Score(hold)  Time         Status
+----------   --------     -----        ------       -----------  -----------  ----         ------
+5_1   *      0            12.131       0            2.556        0            01:37        Success
+
+* : Design saved.
+
+Total (real) run time for 1-seed: 1 mins 37 secs 
+
+par done!
+
+Lattice Place and Route Report for Design "ice40_himax_upduino2_humandet_impl_1_map.udb"
+Sun Feb 09 12:43:25 2020
+
+PAR: Place And Route Radiant Software (64-bit) 1.1.0.165.1  Patch Version(s) 6251.
+Command Line: par -w -t 1 -cores 1 -exp parPathBased=ON \
+	ice40_himax_upduino2_humandet_impl_1_map.udb \
+	ice40_himax_upduino2_humandet_impl_1_par.dir/5_1.udb 
+
+Loading ice40_himax_upduino2_humandet_impl_1_map.udb ...
+Loading device for application udb from file 'itpa08.nph' in environment: C:/lscc/radiant/1.1/ispfpga.
+Design:  lsc_ml_ice40_himax_humandet_top
+Family:  iCE40UP
+Device:  iCE40UP5K
+Package: SG48
+Performance Grade:   High-Performance_1.2V
+WARNING - par: Unable to find the instance/port 'host_ssn' in the constraint 'ldc_set_location -site {3} [get_ports host_ssn]'
+
+WARNING - par: In the constraint 'ldc_set_location -site {3} [get_ports host_ssn]', the locate object is not specified
+
+WARNING - par: Unable to find the instance/port 'host_mosi' in the constraint 'ldc_set_location -site {4} [get_ports host_mosi]'
+
+WARNING - par: In the constraint 'ldc_set_location -site {4} [get_ports host_mosi]', the locate object is not specified
+
+WARNING - par: Ignore constraint 'ldc_set_port -iobuf {} [get_ports {host_intr host_sck host_ssn host_mosi host_miso}]' with non-existed physical port 'host_sck'.
+
+WARNING - par: Unable to find the instance/port 'i2s_dat' in the constraint 'ldc_set_location -site {20} [get_ports i2s_dat]'
+
+WARNING - par: In the constraint 'ldc_set_location -site {20} [get_ports i2s_dat]', the locate object is not specified
+
+WARNING - par: Ignore constraint 'ldc_set_port -iobuf {} [get_ports {i2s_sck i2s_ws i2s_dat}]' with non-existed physical port 'i2s_dat'.
+
+WARNING - par: Unable to find the instance/port 'imu_intr' in the constraint 'ldc_set_location -site {9} [get_ports imu_intr]'
+
+WARNING - par: In the constraint 'ldc_set_location -site {9} [get_ports imu_intr]', the locate object is not specified
+
+WARNING - par: Ignore constraint 'ldc_set_port -iobuf {} [get_ports imu_intr]' with non-existed physical port 'imu_intr'.
+
+WARNING - par: Unable to find the instance/port 'sensor_miso' in the constraint 'ldc_set_location -site {11} [get_ports sensor_miso]'
+
+WARNING - par: In the constraint 'ldc_set_location -site {11} [get_ports sensor_miso]', the locate object is not specified
+
+WARNING - par: Ignore constraint 'ldc_set_port -iobuf {} [get_ports sensor_miso]' with non-existed physical port 'sensor_miso'.
+
+WARNING - par: Unable to find the instance/port 'mem_sio2' in the constraint 'ldc_set_location -site {18} [get_ports mem_sio2]'
+
+WARNING - par: In the constraint 'ldc_set_location -site {18} [get_ports mem_sio2]', the locate object is not specified
+
+WARNING - par: Unable to find the instance/port 'mem_sio3' in the constraint 'ldc_set_location -site {19} [get_ports mem_sio3]'
+
+WARNING - par: In the constraint 'ldc_set_location -site {19} [get_ports mem_sio3]', the locate object is not specified
+
+WARNING - par: Ignore constraint 'ldc_set_port -iobuf {} [get_ports {mem_sio2 mem_sio3}]' with non-existed physical port 'mem_sio2'.
+
+
+WARNING: udb::Constraint "create_clock -name {clk} -period 41.6667 [get_pins genblk1.u_hfosc.osc_inst/CLKHF]" does not have corresponding tmConstraint. Please check if the resource objects of the constraint are valid carefully!
+WARNING: not support VREF in IC1PW_VREFOBJ::collect_vref_driver_comps()
+WARNING - par: Top module port 'debug_scl' does not connect to anything.
+WARNING - par: Top module port 'debug_sda' does not connect to anything.
+WARNING - par: Top module port 'host_sck' does not connect to anything.
+WARNING - par: Top module port 'host_ssn' does not connect to anything.
+WARNING - par: Top module port 'host_mosi' does not connect to anything.
+WARNING - par: Top module port 'i2s_dat' does not connect to anything.
+WARNING - par: Top module port 'imu_intr' does not connect to anything.
+WARNING - par: Top module port 'sensor_miso' does not connect to anything.
+WARNING - par: Top module port 'mem_sio2' does not connect to anything.
+WARNING - par: Top module port 'mem_sio3' does not connect to anything.
+WARNING - par: Top module port 'debug_scl' does not connect to anything.
+WARNING - par: Top module port 'debug_sda' does not connect to anything.
+WARNING - par: Top module port 'host_sck' does not connect to anything.
+WARNING - par: Top module port 'host_ssn' does not connect to anything.
+WARNING - par: Top module port 'host_mosi' does not connect to anything.
+WARNING - par: Top module port 'i2s_dat' does not connect to anything.
+WARNING - par: Top module port 'imu_intr' does not connect to anything.
+WARNING - par: Top module port 'sensor_miso' does not connect to anything.
+WARNING - par: Top module port 'mem_sio2' does not connect to anything.
+WARNING - par: Top module port 'mem_sio3' does not connect to anything.
+WARNING - par: Top module port 'debug_scl' does not connect to anything.
+WARNING - par: Top module port 'debug_sda' does not connect to anything.
+WARNING - par: Top module port 'host_sck' does not connect to anything.
+WARNING - par: Top module port 'host_ssn' does not connect to anything.
+WARNING - par: Top module port 'host_mosi' does not connect to anything.
+WARNING - par: Top module port 'i2s_dat' does not connect to anything.
+WARNING - par: Top module port 'imu_intr' does not connect to anything.
+WARNING - par: Top module port 'sensor_miso' does not connect to anything.
+WARNING - par: Top module port 'mem_sio2' does not connect to anything.
+WARNING - par: Top module port 'mem_sio3' does not connect to anything.
+WARNING - par: Top module port 'debug_scl' does not connect to anything.
+WARNING - par: Top module port 'debug_sda' does not connect to anything.
+WARNING - par: Top module port 'host_sck' does not connect to anything.
+WARNING - par: Top module port 'host_ssn' does not connect to anything.
+WARNING - par: Top module port 'host_mosi' does not connect to anything.
+WARNING - par: Top module port 'i2s_dat' does not connect to anything.
+WARNING - par: Top module port 'imu_intr' does not connect to anything.
+WARNING - par: Top module port 'sensor_miso' does not connect to anything.
+WARNING - par: Top module port 'mem_sio2' does not connect to anything.
+WARNING - par: Top module port 'mem_sio3' does not connect to anything.
+Number of Signals: 8025
+Number of Connections: 20258
+Device utilization summary:
+
+   SLICE (est.)    2271/2640         86% used
+     LUT           4428/5280         83% used
+     REG           2406/5280         45% used
+   PIO               23/56           41% used
+                     23/36           63% bonded
+   IOLOGIC            6/56           10% used
+   DSP                7/8            87% used
+   I2C                0/2             0% used
+   HFOSC              1/1           100% used
+   LFOSC              0/1             0% used
+   LEDDA_IP           0/1             0% used
+   RGBA_DRV           1/1           100% used
+   FILTER             0/2             0% used
+   SRAM               4/4           100% used
+   WARMBOOT           0/1             0% used
+   SPI                0/2             0% used
+   EBR               25/30           83% used
+   PLL                0/1             0% used
+   RGBOUTBUF          3/3           100% used
+   I3C                0/2             0% used
+   OPENDRAIN          0/3             0% used
+
+Pin Constraint Summary:
+   22 out of 23 pins locked (95% locked).
+.
+...........Finished Placer Phase 0 (HIER).  CPU time: 8 secs , REAL time: 9 secs 
+
+
+.................
+Finished Placer Phase 0 (AP).  CPU time: 25 secs , REAL time: 25 secs 
+
+Starting Placer Phase 1. REAL time: 25 secs 
+..  ..
+......................
+
+Placer score = 1308403.
+
+Device SLICE utilization summary after final SLICE packing:
+   SLICE           2274/2640         86% used
+
+Finished Placer Phase 1.  CPU time: 1 mins 4 secs , REAL time: 1 mins 4 secs 
+
+Starting Placer Phase 2.
+.
+
+Placer score =  1444815
+Finished Placer Phase 2.  CPU time: 1 mins 6 secs , REAL time: 1 mins 6 secs 
+
+
+------------------ Clock Report ------------------
+
+Global Clocks :
+  PRIMARY "clk" from comp "genblk1.u_hfosc.osc_inst" on site "HFOSC_R1C32", clk load = 1310, ce load = 0, sr load = 0
+  PRIMARY "g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/w_eu_run_i" from F1 on comp "SLICE_3310" on site "R15C14D", clk load = 0, ce load = 0, sr load = 242
+  PRIMARY "resetn_i" from F0 on comp "SLICE_3484" on site "R8C2B", clk load = 0, ce load = 0, sr load = 164
+  PRIMARY "g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/resetn_i" from F1 on comp "SLICE_3434" on site "R22C19B", clk load = 0, ce load = 0, sr load = 106
+  PRIMARY "pclk_c" from comp "cam_pclk" on CLK_PIN site "35 (PR13B)", clk load = 71, ce load = 0, sr load = 0
+
+  PRIMARY  : 5 out of 8 (62%)
+
+--------------- End of Clock Report ---------------
+
+
+I/O Usage Summary (final):
+   23 out of 56 (41.1%) I/O sites used.
+   23 out of 36 (63.9%) bonded I/O sites used.
+   Number of I/O comps: 23; differential: 0
+   Number of Vref pins used: 0
+
+I/O Bank Usage Summary:
++----------+----------------+------------+------------+------------+
+| I/O Bank | Usage          | Bank Vccio | Bank Vref1 | Bank Vref2 |
++----------+----------------+------------+------------+------------+
+| 0        | 9 / 14 ( 64%)  | 1.8V       |            |            |
+| 1        | 10 / 14 ( 71%) | 1.8V       |            |            |
+| 2        | 4 / 8 ( 50%)   | 3.3V       |            |            |
++----------+----------------+------------+------------+------------+
+
+Total Placer CPU time: 1 mins 6 secs , REAL time: 1 mins 6 secs 
+
+Writing design to file ice40_himax_upduino2_humandet_impl_1_par.dir/5_1.udb ...
+
+WARNING - par: Top module port 'debug_scl' does not connect to anything.
+WARNING - par: Top module port 'debug_sda' does not connect to anything.
+WARNING - par: Top module port 'host_sck' does not connect to anything.
+WARNING - par: Top module port 'host_ssn' does not connect to anything.
+WARNING - par: Top module port 'host_mosi' does not connect to anything.
+WARNING - par: Top module port 'i2s_dat' does not connect to anything.
+WARNING - par: Top module port 'imu_intr' does not connect to anything.
+WARNING - par: Top module port 'sensor_miso' does not connect to anything.
+WARNING - par: Top module port 'mem_sio2' does not connect to anything.
+WARNING - par: Top module port 'mem_sio3' does not connect to anything.
+
+Start NBR router at 12:44:33 02/09/20
+
+*****************************************************************
+Info: NBR allows conflicts(one node used by more than one signal)
+      in the earlier iterations. In each iteration, it tries to  
+      solve the conflicts while keeping the critical connections 
+      routed as short as possible. The routing process is said to
+      be completed when no conflicts exist and all connections   
+      are routed.                                                
+Note: NBR uses a different method to calculate timing slacks. The
+      worst slack and total negative slack may not be the same as
+      that in timing report. You should always run the timing    
+      tool to verify your design.                                
+*****************************************************************
+
+Starting routing resource preassignment
+Preassignment Summary:
+--------------------------------------------------------------------------------
+3361 connections routed with dedicated routing resources
+5 global clock signals routed
+4742 connections routed (of 18564 total) (25.54%)
+---------------------------------------------------------
+Clock routing summary:
+Primary clocks (5 used out of 8 available):
+#0  Signal "g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/w_eu_run_i"
+       Control loads: 0     out of   242 routed (  0.00%)
+       Data    loads: 0     out of    20 routed (  0.00%)
+#2  Signal "g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/resetn_i"
+       Control loads: 0     out of   106 routed (  0.00%)
+       Data    loads: 0     out of     4 routed (  0.00%)
+#4  Signal "clk"
+       Clock   loads: 1310  out of  1310 routed (100.00%)
+       Data    loads: 0     out of     1 routed (  0.00%)
+#6  Signal "resetn_i"
+       Control loads: 0     out of   164 routed (  0.00%)
+#7  Signal "pclk_c"
+       Clock   loads: 71    out of    71 routed (100.00%)
+---------------------------------------------------------
+--------------------------------------------------------------------------------
+Completed routing resource preassignment
+
+Start NBR section for initial routing at 12:44:36 02/09/20
+Level 4, iteration 1
+346(0.13%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 12.780ns/0.000ns; real time: 20 secs 
+
+Info: Initial congestion level at 75% usage is 0
+Info: Initial congestion area  at 75% usage is 5 (0.65%)
+
+Start NBR section for normal routing at 12:44:53 02/09/20
+Level 4, iteration 1
+53(0.02%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 12.727ns/0.000ns; real time: 21 secs 
+Level 4, iteration 2
+18(0.01%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 12.131ns/0.000ns; real time: 22 secs 
+Level 4, iteration 3
+4(0.00%) conflicts; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 12.131ns/0.000ns; real time: 22 secs 
+Level 4, iteration 4
+1(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 12.131ns/0.000ns; real time: 22 secs 
+Level 4, iteration 5
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 
+Estimated worst slack/total negative slack<setup>: 12.131ns/0.000ns; real time: 23 secs 
+
+Start NBR section for setup/hold timing optimization with effort level 3 at 12:44:56 02/09/20
+
+Start NBR section for re-routing at 12:44:57 02/09/20
+Level 4, iteration 1
+0(0.00%) conflict; 0(0.00%) untouched conn; 0 (nbr) score; 0 (nbr) score; real time: 24 secs 
+
+Start NBR section for post-routing at 12:44:57 02/09/20
+
+End NBR router with 0 unrouted connection
+
+NBR Summary
+-----------
+  Number of unrouted connections : 0 (0.00%)
+  Number of connections with timing violations : 0 (0.00%)
+  Estimated worst slack<setup> : 12.131ns
+  Timing score<setup> : 0
+-----------
+Notes: The timing info is calculated for SETUP only.
+
+
+Total CPU time 27 secs 
+Total REAL time: 28 secs 
+Completely routed.
+End of route.  18564 routed (100.00%); 0 unrouted.
+WARNING - par: Top module port 'debug_scl' does not connect to anything.
+WARNING - par: Top module port 'debug_sda' does not connect to anything.
+WARNING - par: Top module port 'host_sck' does not connect to anything.
+WARNING - par: Top module port 'host_ssn' does not connect to anything.
+WARNING - par: Top module port 'host_mosi' does not connect to anything.
+WARNING - par: Top module port 'i2s_dat' does not connect to anything.
+WARNING - par: Top module port 'imu_intr' does not connect to anything.
+WARNING - par: Top module port 'sensor_miso' does not connect to anything.
+WARNING - par: Top module port 'mem_sio2' does not connect to anything.
+WARNING - par: Top module port 'mem_sio3' does not connect to anything.
+
+Writing design to file ice40_himax_upduino2_humandet_impl_1_par.dir/5_1.udb ...
+
+
+All signals are completely routed.
+
+
+PAR_SUMMARY::Run status = Success
+PAR_SUMMARY::Number of unrouted conns = 0
+PAR_SUMMARY::Worst  slack<setup/<ns>> = 12.131
+PAR_SUMMARY::Timing score<setup/<ns>> = 0.000
+PAR_SUMMARY::Worst  slack<hold /<ns>> = 2.556
+PAR_SUMMARY::Timing score<hold /<ns>> = 0.000
+PAR_SUMMARY::Number of errors = 0
+
+Total CPU  Time: 1 mins 37 secs 
+Total REAL Time: 1 mins 37 secs 
+Peak Memory Usage: 352 MB
+
+
+par done!
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2019 Lattice Semiconductor Corporation,  All rights reserved.

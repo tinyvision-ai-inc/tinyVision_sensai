@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.1" title="ice40_himax_upduino2_signdet" device="iCE40UP5K-SG48I" performance_grade="High-Performance_1.2V" default_implementation="impl_1">
+    <Options/>
+    <Implementation title="impl_1" dir="impl_1" description="impl_1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="rom_himax_cfg" top="Hand_Sign_Top"/>
+        <Source name="../Source/Hand_Sign_Top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="Hand_Sign_Top"/>
+        </Source>
+        <Source name="../Source/ice40_himax_signdet_clkgen.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../Source/ice40_himax_video_process_fb_gray.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../Source/common/ice40_resetn.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../Source/common/lsc_i2cm.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../Source/common/lsc_i2cm_16.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../Source/common/lsc_i2cm_himax.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../Source/common/lsc_uart.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../Source/common/spi_loader_wrap.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../Source/common/spi_loader_spram.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../Source/radiant_ip/CNN_IP/lsc_ml_ice40_cnn/lsc_ml_ice40_cnn.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../Source/radiant_mem/rom_himax_cfg/rom_himax_cfg.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../Source/radiant_mem/rom_himax_cfg_qvga_fixed/rom_himax_cfg_qvga_fixed.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../Source/radiant_mem/dpram1024x8/dpram1024x8.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../Source/radiant_mem/dpram256x16/dpram256x16.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../Source/radiant_mem/dpram1024x24/dpram1024x24.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="himax_upduino2.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="ice40_himax_upduino2_signdet1.sty"/>
+</RadiantProject>

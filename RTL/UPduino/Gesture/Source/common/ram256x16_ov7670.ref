@@ -1,0 +1,59 @@
+12_80  // COM7     RESET
+12_08  // COM7     QCIF format & YUV output
+11_00  // CLKRC    Use internal clock
+0C_08  // COM3     Enable scaling
+3E_00  // COM14    SDCW and scaling PCLK, manual scaling disable, PCLK divider 1
+8C_00  // RGB444   Disable RGB 444 format
+04_00  // COM1     Disable CCIR 656
+40_C0  // COM15    Normal RGB, Full range
+3A_00  // TSLB     Disable auto-reset window
+14_50  // COM9     Set auto gain ceiling to x64, No freeze AGC/AEC
+4F_40  // MTX1     matrix coefficient 1(default)
+50_34  // MTX2     matrix coefficient 2(default)
+51_0C  // MTX3     matrix coefficient 3(default)
+52_17  // MTX4     matrix coefficient 4(default)
+53_29  // MTX5     matrix coefficient 5(default)
+54_40  // MTX6     matrix coefficient 6(default)
+58_1E  // MTXS     default
+3D_88  // COM13    default (enable gamma)
+17_11  // HSTART   Horizontal Frame start (high 8 bits)
+18_61  // HSTOP    Horizontal Frame stop (high 8 bits)
+32_80  // HREF     default
+19_03  // VSTART   Vertical Frame start (high 8 bits)
+1A_7B  // VSTOP    Vertical Frame stop (high 8 bits)
+03_00  // VREF     default
+0E_61  // COM5     reserve
+0F_4B  // COM6     Enable HREF at optical black
+16_02  // RSVD     reserve
+1E_07  // MVFP     disable mirror image and disable flip image
+21_02  // ADCCTR1  reserve
+22_91  // ADCCTR2  reserve
+29_07  // RSVD     reserve
+33_0B  // CHLF     reserve
+35_0B  // RSVD     reserve
+37_1D  // ADC      reserve
+38_71  // ACOM     reserve
+39_2A  // OFON     reserve
+3C_78  // COM12    Set to no HREF when VSYNC is low
+4D_40  // RSVD     reserve
+4E_20  // RSVD     reserve
+69_00  // GFIX     Fix gain control (default)
+6B_4A  // DBLV     set PLL control to 4x and bypass internal regulator
+70_3A  // SCALING_XSC
+71_35  // SCALING_YSC
+72_11  // SCALING_DCWCTR
+73_F0  // SCALING_PCLK_DIV
+74_10  // REG74    default
+8D_4F  // RSVD     reserve
+8E_00  // RSVD     reserve
+8F_00  // RSVD     reserve
+90_00  // RSVD     reserve
+91_00  // RSVD     reserve
+96_00  // RSVD     reserve
+9A_00  // RSVD     reserve
+A2_02   // SCALING_PCLK_DELAY
+B0_84  // RSVD     reserve
+B1_0C  // ABLC1    disable ABLC function
+B2_0E  // RSVD     reserve
+B3_82  // RSVD     reserve
+B8_0A  // RSVD     reserve

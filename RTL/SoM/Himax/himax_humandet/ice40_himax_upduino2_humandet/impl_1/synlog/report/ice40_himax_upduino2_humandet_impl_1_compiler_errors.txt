@@ -1,0 +1,5 @@
+@E: CG389 :"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v":403:80:403:95|Reference to undefined module lsc_i2cs_local
+@E: CG389 :"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v":403:80:403:95|Illegal or Unsupported Syntax within black box. Use: // synthesis translate_off {  unsupported Verilog } // synthesis translate_on 
+@E: CG389 :"C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v":403:80:403:95|Alternatively, set the builtin compiler directive IGNORE_VERILOG_BLACKBOX_GUTS in the Verilog tab of the UI or set `define IGNORE_VERILOG_BLACKBOX_GUTS in any Verilog file.
+@E::Errors while synthesizing top module lsc_ml_ice40_himax_humandet_top.
+

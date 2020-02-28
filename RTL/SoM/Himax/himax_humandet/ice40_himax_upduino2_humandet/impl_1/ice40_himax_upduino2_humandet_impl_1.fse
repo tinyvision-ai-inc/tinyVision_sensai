@@ -1,0 +1,62 @@
+
+fsm_encoding {49600603} sequential
+
+fsm_state_encoding {49600603} S_IDLE {000}
+
+fsm_state_encoding {49600603} S_RDOFF {001}
+
+fsm_state_encoding {49600603} S_RDDAT {010}
+
+fsm_state_encoding {49600603} S_RUN {011}
+
+fsm_state_encoding {49600603} S_WAIT {100}
+
+fsm_registers {49600603} {state[2]}  {state[1]}  {state[0]} 
+
+fsm_encoding {5110141012} onehot
+
+fsm_state_encoding {5110141012} IDLE {00000001}
+
+fsm_state_encoding {5110141012} PREP {00000010}
+
+fsm_state_encoding {5110141012} CMD {00000100}
+
+fsm_state_encoding {5110141012} SADDR {00001000}
+
+fsm_state_encoding {5110141012} DUMMY {00010000}
+
+fsm_state_encoding {5110141012} RDBYTE {00100000}
+
+fsm_state_encoding {5110141012} WAIT {01000000}
+
+fsm_state_encoding {5110141012} WAIT10 {10000000}
+
+fsm_registers {5110141012} {cst[7]}  {cst[6]}  {cst[5]}  {cst[4]}  {cst[3]}  {cst[2]}  {cst[1]}  {cst[0]} 
+
+fsm_encoding {765515455151} onehot
+
+fsm_state_encoding {765515455151} S_INIT {000000000001}
+
+fsm_state_encoding {765515455151} S_LATCH {000000000010}
+
+fsm_state_encoding {765515455151} S_DECODE {000000000100}
+
+fsm_state_encoding {765515455151} S_WEIGHT {000000001000}
+
+fsm_state_encoding {765515455151} S_FC_INIT {000000010000}
+
+fsm_state_encoding {765515455151} S_FC {000000100000}
+
+fsm_state_encoding {765515455151} S_2D_1 {000001000000}
+
+fsm_state_encoding {765515455151} S_2D_2 {000010000000}
+
+fsm_state_encoding {765515455151} S_2D_3 {000100000000}
+
+fsm_state_encoding {765515455151} S_CHK_FC {001000000000}
+
+fsm_state_encoding {765515455151} S_RUN {010000000000}
+
+fsm_state_encoding {765515455151} S_WAIT_DONE {100000000000}
+
+fsm_registers {765515455151} {state[11]}  {state[10]}  {state[9]}  {state[8]}  {state[7]}  {state[6]}  {state[5]}  {state[4]}  {state[3]}  {state[2]}  {state[1]}  {state[0]} 

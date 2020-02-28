@@ -1,0 +1,13 @@
+i oclk_in_i
+m 0 0
+u 304 2410
+p {t:genblk1\.u_hfosc.CLKHF}{t:oclk_in_inferred_clock.I[0]}{t:oclk_in_inferred_clock.OUT[0]}{t:u_ice40_humandet_clkgen.i_oclk_in}{p:u_ice40_humandet_clkgen.i_oclk_in}{t:u_ice40_humandet_clkgen.o_init.C}
+e ckid0_0 {t:u_ice40_humandet_clkgen.o_init.C} dffr
+d ckid0_0 {t:genblk1\.u_hfosc.CLKHF} HSOSC Black box on clock path
+i cam_pclk
+m 0 0
+u 24 127
+p {p:cam_pclk}{t:u_ice40_humandet_clkgen.i_pclk_in}{p:u_ice40_humandet_clkgen.i_pclk_in}{p:u_ice40_humandet_clkgen.o_pclk}{t:u_ice40_humandet_clkgen.o_pclk}{t:genblk5\.u_ice40_himax_video_process_64.pclk}{p:genblk5\.u_ice40_himax_video_process_64.pclk}{t:genblk5\.u_ice40_himax_video_process_64.ro_waddr[7:0].C}
+e ckid0_1 {t:genblk5\.u_ice40_himax_video_process_64.ro_waddr[7:0].C} dffr
+c ckid0_1 {p:cam_pclk} Unconstrained_port Inferred clock from port
+l 0 0 0 0 0

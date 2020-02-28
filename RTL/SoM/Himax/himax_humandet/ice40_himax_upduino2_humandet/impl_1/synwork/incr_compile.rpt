@@ -1,0 +1,246 @@
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03LR-SP1
+Install: C:\lscc\radiant\1.1\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-NBKQPIB
+
+Implementation : impl_1
+Synopsys HDL compiler and linker, Version comp2018q2p1, Build 251R, Built Nov 12 2018 09:21:44
+
+Modified Files: 1
+FID:  path (prevtimestamp, timestamp)
+95       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 37
+MID:  lib.cell.view
+53       work.lscc_add_sub.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+54       work.lscc_adder.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+55       work.lscc_cntr.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+56       work.lscc_complex_mult.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+57       work.lscc_dq_core.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (module definition)
+58       work.lscc_fifo.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+59       work.lscc_fifo_dc.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+60       work.lscc_fifo_mem.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+61       work.lscc_fifo_mem_core.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+62       work.lscc_mult_accumulate.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+63       work.lscc_mult_add_sub.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+64       work.lscc_mult_add_sub_sum.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+65       work.lscc_multiplier.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+66       work.lscc_multiplier_dsp.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+67       work.lscc_multiplier_lut.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+68       work.lscc_ram_dp.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+69       work.lscc_ram_dp_core.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+70       work.lscc_ram_dq.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (module definition)
+71       work.lscc_rom.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+72       work.lscc_subtractor.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+73       work.pmi_add.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+74       work.pmi_addsub.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+75       work.pmi_complex_mult.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+76       work.pmi_counter.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+77       work.pmi_dsp.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+78       work.pmi_fifo.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+79       work.pmi_fifo_dc.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+80       work.pmi_mac.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+81       work.pmi_mult.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+82       work.pmi_multaddsub.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+83       work.pmi_multaddsubsum.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+84       work.pmi_ram_dp.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+85       work.pmi_ram_dp_be.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+86       work.pmi_ram_dq.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+87       work.pmi_ram_dq_be.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+88       work.pmi_rom.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+89       work.pmi_sub.verilog may have changed because the following files changed:
+                        C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v (2020-02-09 12:24:00, 2020-02-09 12:42:29) <-- (may instantiate this module)
+
+*******************************************************************
+Unmodified files: 75
+FID:  path (timestamp)
+79       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\ice40_himax_upduino2_humandet\compact_cnn\rtl\compact_cnn.v (2020-02-07 15:20:59)
+80       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\ice40_resetn.v (2020-02-07 15:20:59)
+81       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\lsc_i2cm.v (2020-02-07 15:20:59)
+82       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\lsc_i2cm_16.v (2020-02-07 15:20:59)
+83       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\lsc_i2cm_himax.v (2020-02-07 15:20:59)
+84       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\lsc_uart.v (2020-02-07 15:21:00)
+85       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\spi_fifo.v (2020-02-07 15:21:00)
+86       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\spi_lcd_tx.v (2020-02-07 15:21:00)
+87       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\spi_loader_spram.v (2020-02-07 15:21:00)
+88       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\spi_loader_tri_spram.v (2020-02-07 15:21:00)
+89       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\common\spi_loader_wrap.v (2020-02-07 15:21:01)
+90       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\humandet_post.v (2020-02-08 17:05:02)
+91       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\ice40_himax_humandet_clkgen.v (2020-02-07 15:20:59)
+92       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\ice40_himax_video_process_128.v (2020-02-07 15:20:59)
+93       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\ice40_himax_video_process_128_seq.v (2020-02-07 15:20:59)
+94       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\ice40_himax_video_process_64.v (2020-02-07 15:20:59)
+96       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\dpram256x32\rtl\core/lscc_ram_dp.v (2020-02-07 15:21:02)
+97       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\dpram256x32\rtl\dpram256x32.v (2020-02-07 15:21:02)
+98       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\dpram512x8\rtl\core/lscc_ram_dp.v (2020-02-07 15:21:02)
+99       C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\dpram512x8\rtl\dpram512x8.v (2020-02-07 15:21:02)
+100      C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\dpram_lcd_fifo\rtl\core/lscc_ram_dp.v (2020-02-07 15:21:01)
+101      C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\dpram_lcd_fifo\rtl\dpram_lcd_fifo.v (2020-02-07 15:21:01)
+102      C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\dpram_oled_fifo\rtl\core/lscc_ram_dp.v (2020-02-07 15:21:02)
+103      C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\dpram_oled_fifo\rtl\dpram_oled_fifo.v (2020-02-07 15:21:01)
+104      C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_1fps\rtl\rom_himax_cfg_1fps.v (2020-02-07 15:21:04)
+105      C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_324\rtl\core/lscc_ram_dq.v (2020-02-07 15:21:05)
+106      C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_324\rtl\rom_himax_cfg_324.v (2020-02-07 15:21:05)
+117      C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_324_dim\misc/ram256x16_himax_324x324_dim_rom_himax_cfg_324_dim_copy.mem (2020-02-07 15:21:05)
+107      C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_324_dim\rtl\core/lscc_ram_dq.v (2020-02-07 15:21:05)
+108      C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_324_dim\rtl\rom_himax_cfg_324_dim.v (2020-02-07 15:21:05)
+109      C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_324_dim_maxfps\rtl\core/lscc_ram_dq.v (2020-02-07 15:21:06)
+110      C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_324_dim_maxfps\rtl\rom_himax_cfg_324_dim_maxfps.v (2020-02-07 15:21:06)
+111      C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_324_faceid\rtl\core/lscc_ram_dq.v (2020-02-07 15:21:06)
+112      C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_324_faceid\rtl\rom_himax_cfg_324_faceid.v (2020-02-07 15:21:06)
+113      C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_lcd\rtl\core/lscc_ram_dq.v (2020-02-07 15:21:07)
+114      C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_lcd\rtl\rom_himax_cfg_lcd.v (2020-02-07 15:21:07)
+115      C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_seq\rtl\core/lscc_ram_dq.v (2020-02-07 15:21:08)
+116      C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\src\radiant_mem\rom_himax_cfg_seq\rtl\rom_himax_cfg_seq.v (2020-02-07 15:21:08)
+38       C:\lscc\radiant\1.1\ip\pmi\../common/adder/rtl/lscc_adder.v (2018-11-11 17:18:28)
+39       C:\lscc\radiant\1.1\ip\pmi\../common/adder_subtractor/rtl/lscc_add_sub.v (2018-09-04 23:05:36)
+40       C:\lscc\radiant\1.1\ip\pmi\../common/complex_mult/rtl/lscc_complex_mult.v (2018-11-11 17:23:28)
+41       C:\lscc\radiant\1.1\ip\pmi\../common/counter/rtl/lscc_cntr.v (2018-09-05 01:02:22)
+42       C:\lscc\radiant\1.1\ip\pmi\../common/fifo/rtl/lscc_fifo.v (2018-09-27 00:27:42)
+43       C:\lscc\radiant\1.1\ip\pmi\../common/fifo_dc/rtl/lscc_fifo_dc.v (2019-01-29 22:52:25)
+44       C:\lscc\radiant\1.1\ip\pmi\../common/mult_accumulate/rtl/lscc_mult_accumulate.v (2018-11-11 17:27:54)
+45       C:\lscc\radiant\1.1\ip\pmi\../common/mult_add_sub/rtl/lscc_mult_add_sub.v (2018-11-11 17:31:29)
+46       C:\lscc\radiant\1.1\ip\pmi\../common/mult_add_sub_sum/rtl/lscc_mult_add_sub_sum.v (2018-09-05 01:05:39)
+47       C:\lscc\radiant\1.1\ip\pmi\../common/multiplier/rtl/lscc_multiplier.v (2018-11-11 17:35:18)
+48       C:\lscc\radiant\1.1\ip\pmi\../common/ram_dp/rtl/lscc_ram_dp.v (2018-09-25 19:14:05)
+49       C:\lscc\radiant\1.1\ip\pmi\../common/ram_dq/rtl/lscc_ram_dq.v (2018-09-25 19:15:56)
+50       C:\lscc\radiant\1.1\ip\pmi\../common/rom/rtl/lscc_rom.v (2018-12-12 18:25:33)
+51       C:\lscc\radiant\1.1\ip\pmi\../common/subtractor/rtl/lscc_subtractor.v (2018-11-11 17:38:55)
+52       C:\lscc\radiant\1.1\ip\pmi\pmi_add.v (2018-09-07 02:14:24)
+53       C:\lscc\radiant\1.1\ip\pmi\pmi_addsub.v (2018-09-12 18:07:59)
+54       C:\lscc\radiant\1.1\ip\pmi\pmi_complex_mult.v (2018-09-06 21:04:55)
+55       C:\lscc\radiant\1.1\ip\pmi\pmi_counter.v (2018-09-06 21:04:55)
+56       C:\lscc\radiant\1.1\ip\pmi\pmi_dsp.v (2018-09-06 21:04:55)
+57       C:\lscc\radiant\1.1\ip\pmi\pmi_fifo.v (2018-09-24 03:34:31)
+58       C:\lscc\radiant\1.1\ip\pmi\pmi_fifo_dc.v (2018-09-24 03:34:31)
+59       C:\lscc\radiant\1.1\ip\pmi\pmi_iCE40UP.v (2018-09-24 17:25:35)
+60       C:\lscc\radiant\1.1\ip\pmi\pmi_mac.v (2018-09-06 21:04:55)
+61       C:\lscc\radiant\1.1\ip\pmi\pmi_mult.v (2018-09-06 21:04:55)
+62       C:\lscc\radiant\1.1\ip\pmi\pmi_multaddsub.v (2018-09-06 21:04:55)
+63       C:\lscc\radiant\1.1\ip\pmi\pmi_multaddsubsum.v (2018-09-06 21:04:55)
+64       C:\lscc\radiant\1.1\ip\pmi\pmi_ram_dp.v (2018-09-24 03:34:31)
+65       C:\lscc\radiant\1.1\ip\pmi\pmi_ram_dp_be.v (2018-10-12 16:29:26)
+66       C:\lscc\radiant\1.1\ip\pmi\pmi_ram_dq.v (2018-09-24 03:34:31)
+67       C:\lscc\radiant\1.1\ip\pmi\pmi_ram_dq_be.v (2018-09-24 03:34:31)
+68       C:\lscc\radiant\1.1\ip\pmi\pmi_rom.v (2018-10-15 19:22:16)
+69       C:\lscc\radiant\1.1\ip\pmi\pmi_sub.v (2018-09-07 02:14:34)
+70       C:\lscc\radiant\1.1\synpbase\lib\generic\ice40up.v (2018-11-16 08:38:06)
+71       C:\lscc\radiant\1.1\synpbase\lib\vlog\hypermods.v (2018-11-16 08:38:18)
+72       C:\lscc\radiant\1.1\synpbase\lib\vlog\scemi_objects.v (2018-11-16 08:38:18)
+73       C:\lscc\radiant\1.1\synpbase\lib\vlog\scemi_pipes.svh (2018-11-16 08:38:18)
+74       C:\lscc\radiant\1.1\synpbase\lib\vlog\umr_capim.v (2018-11-16 08:38:18)
+
+*******************************************************************
+Unchanged modules: 66
+MID:  lib.cell.view
+0        work.compact_cnn.verilog
+1        work.compact_cnn_ipgen_bnn_ice40_add.verilog
+2        work.compact_cnn_ipgen_bnn_ice40_addrgen_bin.verilog
+3        work.compact_cnn_ipgen_bnn_ice40_addrgen_conv.verilog
+4        work.compact_cnn_ipgen_bnn_ice40_addrgen_stg.verilog
+5        work.compact_cnn_ipgen_bnn_ice40_bin.verilog
+6        work.compact_cnn_ipgen_bnn_ice40_conv_eu.verilog
+7        work.compact_cnn_ipgen_bnn_ice40_cu.verilog
+8        work.compact_cnn_ipgen_bnn_ice40_fc_eu.verilog
+9        work.compact_cnn_ipgen_bnn_ice40_gmux.verilog
+10       work.compact_cnn_ipgen_bnn_ice40_max_pool_eu.verilog
+11       work.compact_cnn_ipgen_bnn_xnor_ps.verilog
+12       work.compact_cnn_ipgen_cnn_ice40_add.verilog
+13       work.compact_cnn_ipgen_cnn_ice40_addrgen_conv.verilog
+14       work.compact_cnn_ipgen_cnn_ice40_addrgen_stg.verilog
+15       work.compact_cnn_ipgen_cnn_ice40_conv_eu.verilog
+16       work.compact_cnn_ipgen_cnn_ice40_conv_eu_8b.verilog
+17       work.compact_cnn_ipgen_cnn_ice40_cu.verilog
+18       work.compact_cnn_ipgen_cnn_ice40_fc_eu.verilog
+19       work.compact_cnn_ipgen_cnn_ice40_mul.verilog
+20       work.compact_cnn_ipgen_cnn_ice40_mul_8b_dual.verilog
+21       work.compact_cnn_ipgen_cnn_ice40_mul_mux.verilog
+22       work.compact_cnn_ipgen_cnn_ice40_scale_eu.verilog
+23       work.compact_cnn_ipgen_ice40_mul16_reg.verilog
+24       work.compact_cnn_ipgen_lscc_compact_cnn_accelerator.verilog
+25       work.compact_cnn_ipgen_lscc_ml_ice40_bnn.verilog
+26       work.compact_cnn_ipgen_lscc_ml_ice40_cnn.verilog
+27       work.compact_cnn_ipgen_lscc_multiplier.verilog
+28       work.compact_cnn_ipgen_lscc_multiplier_dsp.verilog
+29       work.compact_cnn_ipgen_lscc_multiplier_lut.verilog
+30       work.compact_cnn_ipgen_lscc_ram_dp.verilog
+31       work.compact_cnn_ipgen_mle_ice40up_dpram1024x16.verilog
+32       work.compact_cnn_ipgen_mle_ice40up_dpram2048x16.verilog
+33       work.compact_cnn_ipgen_mle_ice40up_dpram256x16.verilog
+34       work.compact_cnn_ipgen_mle_ice40up_dpram4096x16.verilog
+35       work.compact_cnn_ipgen_mle_ice40up_dpram4096x8.verilog
+36       work.compact_cnn_ipgen_mle_ice40up_mul16.verilog
+37       work.compact_cnn_ipgen_mle_ice40up_mul8_dual.verilog
+38       work.dpram256x32.verilog
+39       work.dpram512x8.verilog
+40       work.dpram_lcd_fifo.verilog
+41       work.dpram_oled_fifo.verilog
+42       work.humandet_post.verilog
+43       work.ice40_himax_humandet_clkgen.verilog
+44       work.ice40_himax_video_process_128.verilog
+45       work.ice40_himax_video_process_128_seq.verilog
+46       work.ice40_himax_video_process_64.verilog
+47       work.ice40_resetn.verilog
+48       work.lsc_i2cm.verilog
+49       work.lsc_i2cm_16.verilog
+50       work.lsc_i2cm_himax.verilog
+51       work.lsc_ml_ice40_himax_humandet_top.verilog
+52       work.lsc_uart.verilog
+90       work.rom_himax_cfg_1fps.verilog
+91       work.rom_himax_cfg_1fps_ipgen_lscc_rom.verilog
+92       work.rom_himax_cfg_324.verilog
+93       work.rom_himax_cfg_324_dim.verilog
+94       work.rom_himax_cfg_324_dim_maxfps.verilog
+95       work.rom_himax_cfg_324_faceid.verilog
+96       work.rom_himax_cfg_lcd.verilog
+97       work.rom_himax_cfg_seq.verilog
+98       work.spi_fifo.verilog
+99       work.spi_lcd_tx.verilog
+100      work.spi_loader_spram.verilog
+101      work.spi_loader_tri_spram.verilog
+102      work.spi_loader_wrap.verilog

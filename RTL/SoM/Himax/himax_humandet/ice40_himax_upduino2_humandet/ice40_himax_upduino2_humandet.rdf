@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RadiantProject version="4.1" title="ice40_himax_upduino2_humandet" device="iCE40UP5K-SG48I" performance_grade="High-Performance_1.2V" default_implementation="impl_1">
+    <Options/>
+    <Implementation title="impl_1" dir="impl_1" description="impl_1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="compact_cnn" top="lsc_ml_ice40_himax_humandet_top"/>
+        <Source name="../src/humandet_post.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/ice40_himax_humandet_clkgen.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/ice40_himax_video_process_64.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/ice40_himax_video_process_128.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/ice40_himax_video_process_128_seq.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/spi_lcd_tx.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/lsc_ml_ice40_himax_humandet_top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="lsc_ml_ice40_himax_humandet_top"/>
+        </Source>
+        <Source name="../src/common/ice40_resetn.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/lsc_i2cm.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/lsc_i2cm_16.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/lsc_i2cm_himax.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/lsc_uart.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/spi_loader_tri_spram.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/spi_loader_spram.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/spi_loader_wrap.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/common/spi_fifo.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../src/radiant_mem/rom_himax_cfg_324/rom_himax_cfg_324.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../src/radiant_mem/rom_himax_cfg_324_dim/rom_himax_cfg_324_dim.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../src/radiant_mem/rom_himax_cfg_324_dim_maxfps/rom_himax_cfg_324_dim_maxfps.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../src/radiant_mem/dpram256x32/dpram256x32.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../src/radiant_mem/dpram512x8/dpram512x8.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../src/radiant_mem/dpram_lcd_fifo/dpram_lcd_fifo.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../src/radiant_mem/rom_himax_cfg_324_faceid/rom_himax_cfg_324_faceid.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../src/radiant_mem/rom_himax_cfg_lcd/rom_himax_cfg_lcd.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../src/radiant_mem/rom_himax_cfg_seq/rom_himax_cfg_seq.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../src/radiant_mem/dpram_oled_fifo/dpram_oled_fifo.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="../src/radiant_mem/rom_himax_cfg_1fps/rom_himax_cfg_1fps.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="compact_cnn/compact_cnn.ipx" type="IPX_Module" type_short="IPX">
+            <Options/>
+        </Source>
+        <Source name="himax_som.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
+        </Source>
+        <Source name="himax_upduino2.pdc" type="Physical Constraints File" type_short="PDC" excluded="TRUE">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="ice40_himax_upduino2_humandet1.sty"/>
+</RadiantProject>

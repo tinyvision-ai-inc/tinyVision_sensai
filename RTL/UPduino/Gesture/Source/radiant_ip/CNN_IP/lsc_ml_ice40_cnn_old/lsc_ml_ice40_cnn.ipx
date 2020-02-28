@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<RadiantModule VendorName="Lattice Semiconductor Corporation" date="2018 09 11 16:45:38" generator="ipgen" module="compact_cnn_accelerator" name="lsc_ml_ice40_cnn" source_format="Verilog" version="1.0">
+ <Package>
+  <File modified="2018 09 11 16:45:38" name="rtl/lsc_ml_ice40_cnn_bb.v" type="black_box_verilog"/>
+  <File modified="2018 09 11 16:45:38" name="rtl/lsc_ml_ice40_cnn.v" type="top_level_verilog"/>
+  <File modified="2018 09 11 16:45:38" name="misc/lsc_ml_ice40_cnn_tmpl.vhd" type="template_vhdl"/>
+  <File modified="2018 09 11 16:45:38" name="misc/lsc_ml_ice40_cnn_tmpl.v" type="template_verilog"/>
+  <File modified="2018 09 11 16:45:38" name="lsc_ml_ice40_cnn.cfg" type="cfg"/>
+  <File modified="2018 09 10 16:36:01" name="rtl/core/lscc_compact_cnn_accelerator.v" type="core_verilog"/>
+ </Package>
+</RadiantModule>

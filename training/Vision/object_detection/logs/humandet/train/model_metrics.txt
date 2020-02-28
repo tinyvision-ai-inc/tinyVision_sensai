@@ -1,0 +1,37 @@
+Number of parameter by layer:
+	conv3x3: 448
+	conv3x3: 2320
+	conv3x3: 4640
+	conv3x3: 9248
+	conv3x3: 9248
+	conv3x3: 12716
+	conv3x3: 19056
+	conv12: 18186
+	total: 75862
+
+Activation size by layer:
+	input: 12288
+	conv3x3: 65536
+	pool: 16384
+	conv3x3: 16384
+	conv3x3: 32768
+	pool: 8192
+	conv3x3: 8192
+	conv3x3: 8192
+	pool: 2048
+	conv3x3: 2816
+	conv3x3: 3072
+	pool: 768
+	conv12: 672
+	total: 177312
+
+Number of flops by layer:
+	conv3x3: 3604480
+	conv3x3: 4734976
+	conv3x3: 9469952
+	conv3x3: 4726784
+	conv3x3: 4726784
+	conv3x3: 1624832
+	conv3x3: 2436096
+	conv12: 581280
+	total: 31905184

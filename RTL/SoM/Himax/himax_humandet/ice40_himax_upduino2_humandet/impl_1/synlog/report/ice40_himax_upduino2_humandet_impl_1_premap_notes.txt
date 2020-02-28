@@ -1,0 +1,13 @@
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: BN362 :"c:\users\vrang\documents\github\senseai\som\himax\himax_humandet\src\common\lsc_i2cm_16.v":279:0:279:5|Removing sequential instance rd_data[7:0] (in view: work.lsc_i2cm_16(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\vrang\documents\github\senseai\som\himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v":874:16:874:21|Removing sequential instance g_use_ml_on\.r_rd_rdy_con (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\vrang\documents\github\senseai\som\himax\himax_humandet\src\ice40_himax_video_process_64.v":206:0:206:5|Removing sequential instance o_width[7:0] (in view: work.ice40_himax_video_process_64_NONE_UNSIGNED(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\vrang\documents\github\senseai\som\himax\himax_humandet\src\ice40_himax_video_process_64.v":220:0:220:5|Removing sequential instance o_height[7:0] (in view: work.ice40_himax_video_process_64_NONE_UNSIGNED(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+@N: BN225 |Writing default property annotation file C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\ice40_himax_upduino2_humandet\impl_1\ice40_himax_upduino2_humandet_impl_1.sap.

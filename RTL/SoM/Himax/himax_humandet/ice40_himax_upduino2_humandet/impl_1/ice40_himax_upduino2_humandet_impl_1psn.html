@@ -1,0 +1,208 @@
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+<link href="file:///C:/lscc/radiant/1.1/data/theme/css/light/report.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="file:///C:/lscc/radiant/1.1/data/theme/css/print/report.css" rel="stylesheet" type="text/css" media="print"/>
+<style type="text/css">
+#toc {
+  position: fixed;
+  right: 2px;
+  top: 2px;
+  padding: 2px 5px 2px 5px;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+}
+#toc_list {
+  display: none;
+  }
+</style>
+
+<script type="text/javascript">
+<!--
+function showTocList() {
+var a = document.getElementById("toc_list");
+a.style.display = "block";
+}
+
+function hideTocList() {
+var a = document.getElementById("toc_list");
+if (a)
+    a.style.display = "none";
+}
+
+//-->
+</script>
+
+</HEAD>
+
+<BODY>
+
+<DIV id="content" onclick="hideTocList()"><PRE>
+POSTSYN: Post Synthesis Process Radiant Software (64-bit) 1.1.0.165.1  Patch Version(s) 6251
+Command Line: postsyn -a iCE40UP -p iCE40UP5K -t SG48 -sp High-Performance_1.2V -oc Industrial -top -w -o ice40_himax_upduino2_humandet_impl_1.udb -ldc C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/ice40_himax_upduino2_humandet/impl_1/ice40_himax_upduino2_humandet_impl_1.ldc -gui -msgset C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/ice40_himax_upduino2_humandet/promote.xml ice40_himax_upduino2_humandet_impl_1.vm 
+   Architecture:     iCE40UP
+   Device:           iCE40UP5K
+   Package:          SG48
+   Performance:      High-Performance_1.2V
+Reading input file 'ice40_himax_upduino2_humandet_impl_1.vm' ...
+WARNING - Attribute 'LSC_IP_SC_compact_cnn' on Module 'secured_object' cannot be supported with the wrong value type. It will be ignored.
+Reading constraint file 'C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/ice40_himax_upduino2_humandet/impl_1/ice40_himax_upduino2_humandet_impl_1.ldc' ...
+Removing unused logic...
+INFO - Signal u_lsc_i2cm_himax/u_lsc_i2cm/interval_cnt_cry_c_0[0].CIN undriven or does not drive anything - clipped
+INFO - Signal u_lsc_i2cm_himax/u_lsc_i2cm/main_cnt_cry_c_0[0].CIN undriven or does not drive anything - clipped
+INFO - Instance u_lsc_i2cm_himax/genblk1.u_rom_himax_cfg/GND_cZ is optimized away.
+INFO - Instance u_lsc_i2cm_himax/genblk1.u_rom_himax_cfg/VCC_cZ is optimized away.
+INFO - Signal u_lsc_i2cm_himax/i2c_cnt_cry_c_0[0].CIN undriven or does not drive anything - clipped
+INFO - Instance g_on_en_uart.u_lsc_uart/genblk1.u_ram512x8_0/GND_cZ is optimized away.
+INFO - Instance g_on_en_uart.u_lsc_uart/genblk1.u_ram512x8_0/VCC_cZ is optimized away.
+INFO - Signal g_on_en_uart.u_lsc_uart/un3_rx_period_cnt_1_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_on_en_uart.u_lsc_uart/fifo_raddr_cry_c_0[0].CIN undriven or does not drive anything - clipped
+INFO - Signal g_on_en_uart.u_lsc_uart/un4_tx_period_cnt_1_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_on_en_uart.u_lsc_uart/un1_fifo_raddr_clk_0_I_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/un1_fifo_raddr_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader/wd_cnt_cry_c_0[0].CIN undriven or does not drive anything - clipped
+INFO - Instance genblk4.u_spi_loader/GND_cZ is optimized away.
+INFO - Instance genblk4.u_spi_loader/VCC_cZ is optimized away.
+INFO - Instance genblk5.u_ice40_himax_video_process_64/u_ram256x32_accu0/GND_cZ is optimized away.
+INFO - Instance genblk5.u_ice40_himax_video_process_64/u_ram256x32_accu0/VCC_cZ is optimized away.
+INFO - Instance genblk5.u_ice40_himax_video_process_64/u_ram256x32_ro/GND_cZ is optimized away.
+INFO - Instance genblk5.u_ice40_himax_video_process_64/u_ram256x32_ro/VCC_cZ is optimized away.
+INFO - Signal genblk5.u_ice40_himax_video_process_64/r_waddr10_cry_c_0[0].CIN undriven or does not drive anything - clipped
+INFO - Signal genblk5.u_ice40_himax_video_process_64/pcnt_2_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal genblk5.u_ice40_himax_video_process_64/un8_b_accu_cry_0_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal genblk5.u_ice40_himax_video_process_64/un10_r_accu_cry_0_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal genblk5.u_ice40_himax_video_process_64/un1_lcnt_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal genblk5.u_ice40_himax_video_process_64/un10_g_accu_cry_0_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal genblk5.u_ice40_himax_video_process_64/r_waddr00_cry_c_0[0].CIN undriven or does not drive anything - clipped
+INFO - Signal genblk5.u_ice40_himax_video_process_64/ro_waddr_cry_c_0[0].CIN undriven or does not drive anything - clipped
+INFO - Signal genblk5.u_ice40_himax_video_process_64/rbcnt_cry_c_0[0].CIN undriven or does not drive anything - clipped
+INFO - Signal genblk5.u_ice40_himax_video_process_64/r_waddr01_cry_c_0[0].CIN undriven or does not drive anything - clipped
+INFO - Signal genblk5.u_ice40_himax_video_process_64/ro_raddr_cry_c_0[0].CIN undriven or does not drive anything - clipped
+INFO - Signal u_speedsignal_post/fixed_lte_0.un13_fixed_lte_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_stg/un1_off2_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_stg/un1_off1_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_stg/un1_period_cnt_1_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_stg/un3_delay_done_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_stg/un6_length_done_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_stg/addr_int_1_0_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_stg/un2_length_done_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_stg/un3_param_init_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_stg/un2_main_cnt_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_stg/un6_o_addr_cry_0_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_stg/un1_width_cnt_cry_0_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_conv/u_cnn_ice40_add/p_s_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_conv/g_scratch_4k.u_dpram4096x16/lscc_ram_dp_inst/mem_adreg_0_I_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_conv/un2_rd_main_cnt_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_conv/un3_wr_off1_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_conv/un2_wr_length_done_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_conv/un5_rd_length_done_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_conv/un5_wr_length_done_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_conv/un3_wr_delay_done_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_conv/un4_rd_delay_done_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_conv/un2_rd_length_done_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_conv/waddr_int_1_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_conv/un1_rd_off2_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_conv/un1_rd_width_cnt_cry_0_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_conv/un1_wr_main_cnt_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_conv/un1_wr_off2_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_conv/un1_wr_width_cnt_cry_0_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_conv/raddr_int_1_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_addrgen_conv/un4_rd_off1_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/g_on_byte_mode_cnn_convolution.u_cnn_ice40_conv_eu/adder_inst[2].u_cnn_ice40_add0/p_s_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/g_on_byte_mode_cnn_convolution.u_cnn_ice40_conv_eu/adder_inst[3].u_cnn_ice40_add0/p_s_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/g_on_byte_mode_cnn_convolution.u_cnn_ice40_conv_eu/adder_inst[7].u_cnn_ice40_add0/p_s_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/g_on_byte_mode_cnn_convolution.u_cnn_ice40_conv_eu/adder_inst[1].u_cnn_ice40_add0/p_s_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/g_on_byte_mode_cnn_convolution.u_cnn_ice40_conv_eu/adder_inst[8].u_cnn_ice40_add0/p_s_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/g_on_byte_mode_cnn_convolution.u_cnn_ice40_conv_eu/adder_inst[4].u_cnn_ice40_add0/p_s_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/g_on_byte_mode_cnn_convolution.u_cnn_ice40_conv_eu/adder_inst[5].u_cnn_ice40_add0/p_s_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/g_on_byte_mode_cnn_convolution.u_cnn_ice40_conv_eu/adder_inst[6].u_cnn_ice40_add0/p_s_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/g_on_byte_mode_cnn_convolution.u_cnn_ice40_conv_eu/mul_inst[0].u_cnn_mul_8b_dual/un1_mul0_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/g_on_byte_mode_cnn_convolution.u_cnn_ice40_conv_eu/mul_inst[0].u_cnn_mul_8b_dual/un1_mul1_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/g_on_byte_mode_cnn_convolution.u_cnn_ice40_conv_eu/mul_inst[3].u_cnn_mul_8b_dual/un1_mul0_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/g_on_byte_mode_cnn_convolution.u_cnn_ice40_conv_eu/mul_inst[3].u_cnn_mul_8b_dual/un1_mul1_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/g_on_byte_mode_cnn_convolution.u_cnn_ice40_conv_eu/mul_inst[2].u_cnn_mul_8b_dual/un1_mul0_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/g_on_byte_mode_cnn_convolution.u_cnn_ice40_conv_eu/mul_inst[2].u_cnn_mul_8b_dual/un1_mul1_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/g_on_byte_mode_cnn_convolution.u_cnn_ice40_conv_eu/mul_inst[1].u_cnn_mul_8b_dual/un1_mul0_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/g_on_byte_mode_cnn_convolution.u_cnn_ice40_conv_eu/mul_inst[1].u_cnn_mul_8b_dual/un1_mul1_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/g_on_byte_mode_cnn_convolution.u_cnn_ice40_conv_eu/mul_inst[4].u_cnn_mul_8b_dual/un1_mul0_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/g_on_byte_mode_cnn_convolution.u_cnn_ice40_conv_eu/un1_dbuf_waddr_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_scale_eu/u_cnn_mul_1/un1_p_bs_1_inc_cry_1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_scale_eu/u_cnn_add_1/p_s_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_ice40_bnn_max_pool_eu1/cmp_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_ice40_bnn_max_pool_eu1/un1_dbuf_waddr_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_fc_eu/un1_accu_0_0_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_fc_eu/un1_accu_0_1_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_fc_eu/un1_accu_0_1_0_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_fc_eu/o_ps_out_1_cry_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_cu/un1_num_fc_cry_0_0_c_0.CIN undriven or does not drive anything - clipped
+INFO - Signal g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst/g_on_use_cnn.u_lsc_ml/u_cnn_ice40_cu/un1_num_weight_cry_0_s1_c_0.CIN undriven or does not drive anything - clipped
+INFO - Instance g_use_ml_on.II_0/VCC_cZ is optimized away.
+INFO - Instance cam_scl_obuft.vhi_inst is optimized away.
+INFO - Instance cam_sda_obuft.vhi_inst is optimized away.
+INFO - Signal cam_sda_obuft.vcc undriven or does not drive anything - clipped
+INFO - Signal cam_scl_obuft.vcc undriven or does not drive anything - clipped
+Starting design annotation....
+Writing output file 'ice40_himax_upduino2_humandet_impl_1.udb'.
+POSTSYN finished successfully.
+Total CPU Time: 2 secs 
+Total REAL Time: 3 secs 
+Peak Memory Usage: 162 MB
+
+
+</PRE></DIV>
+
+<button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
+<script type="text/javascript">
+<!--
+var scrollStep = 0;
+function scrollToTop(){
+  var funScroll = function() {
+    var top = document.body.scrollTop;
+    if (top == 0) {
+      scrollStep = 0;
+      return;
+    }
+    if (scrollStep == 0)
+      scrollStep = top/20 + 1;
+    top -= scrollStep;
+    if (top < 0)
+      top = 0;
+    document.body.scrollTop = top;
+    requestAnimationFrame(funScroll);
+  };
+  funScroll();
+}
+
+window.addEventListener('scroll', function(e) {
+  var backToTop = document.getElementById('back_to_top')
+  if (document.body.scrollTop > 0) {
+    backToTop.style.display = 'block';
+  } else {	backToTop.style.display = 'none'  }});
+
+//-->
+</script>
+
+<style type="text/css">
+#back_to_top {
+  bottom:20px; right:20px;
+  width:30px; height:30px;
+  font-size: 20px;
+  padding: 2px 5px 2px 5px;
+  position:fixed;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+  display:none;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin:50% 50%;
+}
+#back_to_top:focus {
+  outline-width:0px;
+}
+</style>
+
+</BODY>
+

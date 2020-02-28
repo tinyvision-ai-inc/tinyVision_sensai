@@ -1,0 +1,631 @@
+---------------------------------------------------
+Report for cell lsc_ml_ice40_himax_humandet_top
+   Instance path: lsc_ml_ice40_himax_humandet_top
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                 IOLGC	       6.00        100.0
+                                  LUT4	       4423        100.0
+                                 IOREG	          6        100.0
+                                 IOBUF	         26        100.0
+                                PFUREG	       2406        100.0
+                                   EBR	         25        100.0
+                                   DSP	          7        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                           compact_cnn	          1        53.8
+                         humandet_post	          1         1.2
+ice40_himax_video_process_64_NONE_UNSIGNED	          1         7.5
+                          ice40_resetn	          1         0.4
+lsc_i2cm_himax_80_0_324x324_dim_0_1_2_3_7	          1         2.0
+                    lsc_uart_103_512_0	          1         4.0
+             spi_loader_wrap_TRI_SPRAM	          1         3.8
+---------------------------------------------------
+Report for cell ice40_resetn
+   Instance path: lsc_ml_ice40_himax_humandet_top/u_resetn
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         16         0.4
+                                PFUREG	          9         0.4
+---------------------------------------------------
+Report for cell lsc_i2cm_himax_80_0_324x324_dim_0_1_2_3_7
+   Instance path: lsc_ml_ice40_himax_humandet_top/u_lsc_i2cm_himax
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         88         2.0
+                                PFUREG	         72         3.0
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                           lsc_i2cm_16	          1         1.4
+                 rom_himax_cfg_324_dim	          1         0.0
+---------------------------------------------------
+Report for cell lsc_i2cm_16
+   Instance path: lsc_ml_ice40_himax_humandet_top/u_lsc_i2cm_himax/u_lsc_i2cm
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         62         1.4
+                                PFUREG	         43         1.8
+---------------------------------------------------
+Report for cell rom_himax_cfg_324_dim
+   Instance path: lsc_ml_ice40_himax_humandet_top/u_lsc_i2cm_himax/genblk1.u_rom_himax_cfg
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                 lscc_ram_dq_Z1_layer0	          1         0.0
+---------------------------------------------------
+Report for cell lscc_ram_dq_Z1_layer0
+   Instance path: lsc_ml_ice40_himax_humandet_top/u_lsc_i2cm_himax/genblk1.u_rom_himax_cfg/lscc_ram_dq_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell lsc_uart_103_512_0
+   Instance path: lsc_ml_ice40_himax_humandet_top/g_on_en_uart.u_lsc_uart
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        179         4.0
+                                PFUREG	        107         4.4
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                            dpram512x8	          1         0.0
+---------------------------------------------------
+Report for cell dpram512x8
+   Instance path: lsc_ml_ice40_himax_humandet_top/g_on_en_uart.u_lsc_uart/genblk1.u_ram512x8_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                 lscc_ram_dp_Z2_layer0	          1         0.0
+---------------------------------------------------
+Report for cell lscc_ram_dp_Z2_layer0
+   Instance path: lsc_ml_ice40_himax_humandet_top/g_on_en_uart.u_lsc_uart/genblk1.u_ram512x8_0/lscc_ram_dp_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell spi_loader_wrap_TRI_SPRAM
+   Instance path: lsc_ml_ice40_himax_humandet_top/genblk4.u_spi_loader
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        168         3.8
+                                PFUREG	         97         4.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                  spi_loader_tri_spram	          1         3.8
+---------------------------------------------------
+Report for cell spi_loader_tri_spram
+   Instance path: lsc_ml_ice40_himax_humandet_top/genblk4.u_spi_loader/g_on_code_tri_spram.u_spi_loader
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        168         3.8
+                                PFUREG	         97         4.0
+---------------------------------------------------
+Report for cell ice40_himax_video_process_64_NONE_UNSIGNED
+   Instance path: lsc_ml_ice40_himax_humandet_top/genblk5.u_ice40_himax_video_process_64
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        333         7.5
+                                PFUREG	        190         7.9
+                                   EBR	          4        16.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                         dpram256x32_0	          1         1.1
+                         dpram256x32_1	          1         0.0
+---------------------------------------------------
+Report for cell dpram256x32_1
+   Instance path: lsc_ml_ice40_himax_humandet_top/genblk5.u_ice40_himax_video_process_64/u_ram256x32_accu0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          2         8.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+               lscc_ram_dp_Z3_layer0_0	          1         0.0
+---------------------------------------------------
+Report for cell lscc_ram_dp_Z3_layer0_0
+   Instance path: lsc_ml_ice40_himax_humandet_top/genblk5.u_ice40_himax_video_process_64/u_ram256x32_accu0/lscc_ram_dp_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   EBR	          2         8.0
+---------------------------------------------------
+Report for cell dpram256x32_0
+   Instance path: lsc_ml_ice40_himax_humandet_top/genblk5.u_ice40_himax_video_process_64/u_ram256x32_ro
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         48         1.1
+                                PFUREG	         24         1.0
+                                   EBR	          2         8.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+               lscc_ram_dp_Z3_layer0_1	          1         1.1
+---------------------------------------------------
+Report for cell lscc_ram_dp_Z3_layer0_1
+   Instance path: lsc_ml_ice40_himax_humandet_top/genblk5.u_ice40_himax_video_process_64/u_ram256x32_ro/lscc_ram_dp_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         48         1.1
+                                PFUREG	         24         1.0
+                                   EBR	          2         8.0
+---------------------------------------------------
+Report for cell humandet_post
+   Instance path: lsc_ml_ice40_himax_humandet_top/u_speedsignal_post
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         52         1.2
+                                PFUREG	         33         1.4
+---------------------------------------------------
+Report for cell compact_cnn
+   Instance path: lsc_ml_ice40_himax_humandet_top/g_use_ml_on.II_0
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       2379        53.8
+                                PFUREG	       1879        78.1
+                                   EBR	         19        76.0
+                                   DSP	          7        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                      secured_design_1	          1        53.7
+---------------------------------------------------
+Report for cell secured_design_1
+   Instance path: lsc_ml_ice40_himax_humandet_top/g_use_ml_on.II_0/lscc_compact_cnn_accelerator_inst
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       2377        53.7
+                                PFUREG	       1879        78.1
+                                   EBR	         19        76.0
+                                   DSP	          7        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                      secured_design_2	          1        53.7
+---------------------------------------------------
+Report for cell secured_design_2
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_2
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	       2377        53.7
+                                PFUREG	       1879        78.1
+                                   EBR	         19        76.0
+                                   DSP	          7        100.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                      secured_design_3	          1        10.7
+                     secured_design_36	          1         4.0
+                      secured_design_4	          1        10.7
+                     secured_design_43	          1         2.9
+                     secured_design_46	          1         5.9
+                     secured_design_49	          1         5.2
+                      secured_design_8	          1         0.1
+                      secured_design_9	          1        14.3
+---------------------------------------------------
+Report for cell secured_design_3
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_3
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        472        10.7
+                                PFUREG	        246        10.2
+---------------------------------------------------
+Report for cell secured_design_4
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_4
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        472        10.7
+                                PFUREG	        303        12.6
+                                   EBR	         16        64.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                      secured_design_5	          1         0.8
+                      secured_design_6	          1         1.4
+---------------------------------------------------
+Report for cell secured_design_5
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_5
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         34         0.8
+                                PFUREG	         16         0.7
+---------------------------------------------------
+Report for cell secured_design_6
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_6
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         64         1.4
+                                PFUREG	         73         3.0
+                                   EBR	         16        64.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                      secured_design_7	          1         1.4
+---------------------------------------------------
+Report for cell secured_design_7
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_7
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         64         1.4
+                                PFUREG	         73         3.0
+                                   EBR	         16        64.0
+---------------------------------------------------
+Report for cell secured_design_8
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_8
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	          6         0.1
+                                PFUREG	          7         0.3
+---------------------------------------------------
+Report for cell secured_design_9
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_9
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        632        14.3
+                                PFUREG	        632        26.3
+                                   EBR	          2         8.0
+                                   DSP	          5        71.4
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_10	          1         0.8
+                     secured_design_11	          1         1.1
+                     secured_design_12	          1         0.0
+                     secured_design_13	          1         0.8
+                     secured_design_14	          1         0.4
+                     secured_design_15	          1         0.8
+                     secured_design_16	          1         0.8
+                     secured_design_17	          1         0.8
+                     secured_design_18	          1         1.1
+                     secured_design_19	          1         0.6
+                     secured_design_22	          1         0.6
+                     secured_design_25	          1         0.6
+                     secured_design_28	          1         0.6
+                     secured_design_31	          1         0.3
+                     secured_design_34	          1         1.6
+---------------------------------------------------
+Report for cell secured_design_10
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_10
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         34         0.8
+                                PFUREG	         16         0.7
+---------------------------------------------------
+Report for cell secured_design_11
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_11
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         49         1.1
+                                PFUREG	         16         0.7
+---------------------------------------------------
+Report for cell secured_design_12
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_12
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	         12         0.5
+---------------------------------------------------
+Report for cell secured_design_13
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_13
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         34         0.8
+                                PFUREG	         16         0.7
+---------------------------------------------------
+Report for cell secured_design_14
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_14
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         17         0.4
+                                PFUREG	         14         0.6
+---------------------------------------------------
+Report for cell secured_design_15
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_15
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         34         0.8
+                                PFUREG	         16         0.7
+---------------------------------------------------
+Report for cell secured_design_16
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_16
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         34         0.8
+                                PFUREG	         16         0.7
+---------------------------------------------------
+Report for cell secured_design_17
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_17
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         34         0.8
+                                PFUREG	         16         0.7
+---------------------------------------------------
+Report for cell secured_design_18
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_18
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         49         1.1
+                                PFUREG	         16         0.7
+---------------------------------------------------
+Report for cell secured_design_19
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_19
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         28         0.6
+                                PFUREG	         48         2.0
+                                   DSP	          1        14.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_20	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_20
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_20
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	         24         1.0
+                                   DSP	          1        14.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_21	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_21
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_21
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   DSP	          1        14.3
+---------------------------------------------------
+Report for cell secured_design_22
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_22
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         28         0.6
+                                PFUREG	         48         2.0
+                                   DSP	          1        14.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_23	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_23
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_23
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	         24         1.0
+                                   DSP	          1        14.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_24	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_24
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_24
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   DSP	          1        14.3
+---------------------------------------------------
+Report for cell secured_design_25
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_25
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         28         0.6
+                                PFUREG	         48         2.0
+                                   DSP	          1        14.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_26	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_26
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_26
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	         24         1.0
+                                   DSP	          1        14.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_27	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_27
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_27
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   DSP	          1        14.3
+---------------------------------------------------
+Report for cell secured_design_28
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_28
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         28         0.6
+                                PFUREG	         48         2.0
+                                   DSP	          1        14.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_29	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_29
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_29
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	         24         1.0
+                                   DSP	          1        14.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_30	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_30
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_30
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   DSP	          1        14.3
+---------------------------------------------------
+Report for cell secured_design_31
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_31
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         14         0.3
+                                PFUREG	         24         1.0
+                                   DSP	          1        14.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_32	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_32
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_32
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                PFUREG	         12         0.5
+                                   DSP	          1        14.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_33	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_33
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_33
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   DSP	          1        14.3
+---------------------------------------------------
+Report for cell secured_design_34
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_34
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         71         1.6
+                                PFUREG	        106         4.4
+                                   EBR	          2         8.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_35	          1         1.6
+---------------------------------------------------
+Report for cell secured_design_35
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_35
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         71         1.6
+                                PFUREG	        106         4.4
+                                   EBR	          2         8.0
+---------------------------------------------------
+Report for cell secured_design_36
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_36
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        175         4.0
+                                PFUREG	        230         9.6
+                                   DSP	          1        14.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_37	          1         1.3
+                     secured_design_42	          1         0.8
+---------------------------------------------------
+Report for cell secured_design_37
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_37
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         58         1.3
+                                PFUREG	         40         1.7
+                                   DSP	          1        14.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_38	          1         0.2
+---------------------------------------------------
+Report for cell secured_design_38
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_38
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         10         0.2
+                                PFUREG	         23         1.0
+                                   DSP	          1        14.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_39	          1         0.2
+---------------------------------------------------
+Report for cell secured_design_39
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_39
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         10         0.2
+                                PFUREG	         23         1.0
+                                   DSP	          1        14.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_40	          1         0.2
+---------------------------------------------------
+Report for cell secured_design_40
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_40
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         10         0.2
+                                PFUREG	         23         1.0
+                                   DSP	          1        14.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_41	          1         0.2
+---------------------------------------------------
+Report for cell secured_design_41
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_41
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         10         0.2
+                                PFUREG	         23         1.0
+                                   DSP	          1        14.3
+---------------------------------------------------
+Report for cell secured_design_42
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_42
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         35         0.8
+                                PFUREG	         16         0.7
+---------------------------------------------------
+Report for cell secured_design_43
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_43
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        127         2.9
+                                PFUREG	        111         4.6
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_44	          1         0.7
+---------------------------------------------------
+Report for cell secured_design_44
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_44
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         32         0.7
+                                PFUREG	         41         1.7
+                                   EBR	          1         4.0
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_45	          1         0.7
+---------------------------------------------------
+Report for cell secured_design_45
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_45
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         32         0.7
+                                PFUREG	         41         1.7
+                                   EBR	          1         4.0
+---------------------------------------------------
+Report for cell secured_design_46
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_46
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        263         5.9
+                                PFUREG	        139         5.8
+                                   DSP	          1        14.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_47	          1         0.3
+---------------------------------------------------
+Report for cell secured_design_47
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_47
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	         14         0.3
+                                PFUREG	         32         1.3
+                                   DSP	          1        14.3
+SUB MODULES
+                                  cell	      count    LUT4 Usage(%)
+                     secured_design_48	          1         0.0
+---------------------------------------------------
+Report for cell secured_design_48
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_48
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                   DSP	          1        14.3
+---------------------------------------------------
+Report for cell secured_design_49
+   Instance path: lsc_ml_ice40_himax_humandet_top/secured_instance_49
+                     Cell usage:
+                                  cell	      count    Res Usage(%)
+                                  LUT4	        229         5.2
+                                PFUREG	        189         7.9

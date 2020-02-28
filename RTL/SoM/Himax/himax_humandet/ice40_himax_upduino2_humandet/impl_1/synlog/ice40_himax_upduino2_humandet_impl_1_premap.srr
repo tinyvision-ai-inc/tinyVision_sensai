@@ -1,0 +1,166 @@
+# Sun Feb  9 12:42:42 2020
+
+
+Copyright (C) 1994-2018 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: N-2018.03LR-SP1
+Install: C:\lscc\radiant\1.1\synpbase
+OS: Windows 6.2
+
+Hostname: DESKTOP-NBKQPIB
+
+Implementation : impl_1
+Synopsys Lattice Technology Pre-mapping, Version maplat2018q2p1, Build 030R, Built Feb 27 2019 10:02:28
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@N: MF284 |Setting synthesis effort to medium for the design
+@L: C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\ice40_himax_upduino2_humandet\impl_1\ice40_himax_upduino2_humandet_impl_1_scck.rpt 
+Printing clock  summary report in "C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\ice40_himax_upduino2_humandet\impl_1\ice40_himax_upduino2_humandet_impl_1_scck.rpt" file 
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 107MB peak: 109MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 110MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 110MB peak: 112MB)
+
+@N: MF284 |Setting synthesis effort to medium for the design
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: MH105 |UMR3 is only supported for HAPS-80.
+@N: BN362 :"c:\users\vrang\documents\github\senseai\som\himax\himax_humandet\src\common\lsc_i2cm_16.v":279:0:279:5|Removing sequential instance rd_data[7:0] (in view: work.lsc_i2cm_16(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\vrang\documents\github\senseai\som\himax\himax_humandet\src\lsc_ml_ice40_himax_humandet_top.v":874:16:874:21|Removing sequential instance g_use_ml_on\.r_rd_rdy_con (in view: work.lsc_ml_ice40_himax_humandet_top(verilog)) of type view:PrimLib.dffse(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\vrang\documents\github\senseai\som\himax\himax_humandet\src\ice40_himax_video_process_64.v":206:0:206:5|Removing sequential instance o_width[7:0] (in view: work.ice40_himax_video_process_64_NONE_UNSIGNED(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+@N: BN362 :"c:\users\vrang\documents\github\senseai\som\himax\himax_humandet\src\ice40_himax_video_process_64.v":220:0:220:5|Removing sequential instance o_height[7:0] (in view: work.ice40_himax_video_process_64_NONE_UNSIGNED(verilog)) of type view:PrimLib.dffe(prim) because it does not drive other instances.
+Encoding state machine state[4:0] (in view: work.lsc_i2cm_himax_80_0_324x324_dim_0_1_2_3_7(verilog))
+original code -> new code
+   000 -> 000
+   001 -> 001
+   010 -> 010
+   011 -> 011
+   111 -> 100
+Encoding state machine cst[7:0] (in view: work.spi_loader_tri_spram(verilog))
+original code -> new code
+   000 -> 00000001
+   001 -> 00000010
+   010 -> 00000100
+   011 -> 00001000
+   100 -> 00010000
+   101 -> 00100000
+   110 -> 01000000
+   111 -> 10000000
+Encoding state machine state[11:0] (in view: work.compact_cnn_ipgen_cnn_ice40_cu_Z9_layer0(verilog))
+original code -> new code
+   0000 -> 000000000001
+   0001 -> 000000000010
+   0010 -> 000000000100
+   0100 -> 000000001000
+   0101 -> 000000010000
+   0110 -> 000000100000
+   1000 -> 000001000000
+   1001 -> 000010000000
+   1011 -> 000100000000
+   1101 -> 001000000000
+   1110 -> 010000000000
+   1111 -> 100000000000
+syn_allowed_resources : blockrams=30  set on top level netlist lsc_ml_ice40_himax_humandet_top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 147MB peak: 148MB)
+
+
+
+Clock Summary
+******************
+
+          Start                                                      Requested     Requested     Clock        Clock                     Clock
+Level     Clock                                                      Frequency     Period        Type         Group                     Load 
+---------------------------------------------------------------------------------------------------------------------------------------------
+0 -       System                                                     362.3 MHz     2.760         system       system_clkgroup           0    
+                                                                                                                                             
+0 -       lsc_ml_ice40_himax_humandet_top|oclk_in_inferred_clock     97.9 MHz      10.210        inferred     Autoconstr_clkgroup_0     2375 
+                                                                                                                                             
+0 -       lsc_ml_ice40_himax_humandet_top|cam_pclk                   104.7 MHz     9.549         inferred     Autoconstr_clkgroup_1     180  
+=============================================================================================================================================
+
+
+
+Clock Load Summary
+***********************
+
+                                                           Clock     Source                            Clock Pin                                                     Non-clock Pin     Non-clock Pin     
+Clock                                                      Load      Pin                               Seq Example                                                   Seq Example       Comb Example      
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                                     0         -                                 -                                                             -                 -                 
+                                                                                                                                                                                                         
+lsc_ml_ice40_himax_humandet_top|oclk_in_inferred_clock     2375      genblk1\.u_hfosc.CLKHF(HSOSC)     r_result_en_d.C                                               -                 cam_mclk.I[0](and)
+                                                                                                                                                                                                         
+lsc_ml_ice40_himax_humandet_top|cam_pclk                   180       cam_pclk(port)                    genblk5\.u_ice40_himax_video_process_64.cam_data_d[3:0].C     -                 -                 
+=========================================================================================================================================================================================================
+
+@W: MT530 :"c:\users\vrang\documents\github\senseai\som\himax\himax_humandet\src\ice40_himax_humandet_clkgen.v":240:0:240:5|Found inferred clock lsc_ml_ice40_himax_humandet_top|oclk_in_inferred_clock which controls 2375 sequential elements including u_ice40_humandet_clkgen.o_init. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\lscc\radiant\1.1\ip\pmi\../common/ram_dp/rtl\lscc_ram_dp.v":196:8:196:13|Found inferred clock lsc_ml_ice40_himax_humandet_top|cam_pclk which controls 180 sequential elements including genblk5\.u_ice40_himax_video_process_64.u_ram256x32_accu0.lscc_ram_dp_inst.mem[30:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+ICG Latch Removal Summary:
+Number of ICG latches removed: 0
+Number of ICG latches not removed:	0
+
+
+@S |Clock Optimization Summary
+
+
+
+#### START OF PREMAP CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 127 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 2410 clock pin(s) of sequential element(s)
+0 instances converted, 2410 sequential instances remain driven by gated/generated clocks
+
+============================================== Non-Gated/Non-Generated Clocks ===============================================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance                                      
+-----------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_1       cam_pclk            Unconstrained_port     127        genblk5\.u_ice40_himax_video_process_64.ro_waddr[7:0]
+=============================================================================================================================
+========================================================================= Gated/Generated Clocks =========================================================================
+Clock Tree ID     Driving Element            Drive Element Type     Unconverted Fanout     Sample Instance                    Explanation                                 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@KP:ckid0_0       genblk1\.u_hfosc.CLKHF     HSOSC                  2410                   u_ice40_humandet_clkgen.o_init     Gated/generated clock conversion not enabled
+==========================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######
+
+@N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\ice40_himax_upduino2_humandet\impl_1\ice40_himax_upduino2_humandet_impl_1.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 144MB peak: 148MB)
+
+
+Finished constraint checker preprocessing (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 145MB peak: 148MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 146MB peak: 148MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 60MB peak: 148MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sun Feb  9 12:42:43 2020
+
+###########################################################]

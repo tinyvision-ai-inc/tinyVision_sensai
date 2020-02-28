@@ -1,0 +1,107 @@
+#--  Synopsys, Inc.
+#--  Version N-2018.03LR-SP1
+#--  Project file C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\ice40_himax_upduino2_humandet\impl_1\scratchproject.prs
+
+#project files
+add_file -verilog "C:/lscc/radiant/1.1/ip/pmi/pmi_iCE40UP.v"
+add_file -vhdl -lib pmi "C:/lscc/radiant/1.1/ip/pmi/pmi_iCE40UP.vhd"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/humandet_post.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/ice40_himax_humandet_clkgen.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/ice40_himax_video_process_64.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/ice40_himax_video_process_128.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/ice40_himax_video_process_128_seq.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/common/spi_lcd_tx.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/lsc_ml_ice40_himax_humandet_top.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/common/ice40_resetn.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/common/lsc_i2cm.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/common/lsc_i2cm_16.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/common/lsc_i2cm_himax.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/common/lsc_uart.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/common/spi_loader_tri_spram.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/common/spi_loader_spram.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/common/spi_loader_wrap.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/common/spi_fifo.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/rom_himax_cfg_324/rtl/rom_himax_cfg_324.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/rom_himax_cfg_324_dim/rtl/rom_himax_cfg_324_dim.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/rom_himax_cfg_324_dim_maxfps/rtl/rom_himax_cfg_324_dim_maxfps.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/dpram256x32/rtl/dpram256x32.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/dpram512x8/rtl/dpram512x8.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/dpram_lcd_fifo/rtl/dpram_lcd_fifo.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/rom_himax_cfg_324_faceid/rtl/rom_himax_cfg_324_faceid.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/rom_himax_cfg_lcd/rtl/rom_himax_cfg_lcd.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/rom_himax_cfg_seq/rtl/rom_himax_cfg_seq.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/dpram_oled_fifo/rtl/dpram_oled_fifo.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/rom_himax_cfg_1fps/rtl/rom_himax_cfg_1fps.v"
+add_file -verilog "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/ice40_himax_upduino2_humandet/compact_cnn/rtl/compact_cnn.v"
+
+
+
+#implementation: "impl_1"
+impl -add C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\ice40_himax_upduino2_humandet\impl_1 -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+set_option -project_relative_includes 1
+set_option -include_path {C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/ice40_himax_upduino2_humandet/impl_1/}
+set_option -include_path {C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/ice40_himax_upduino2_humandet;C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/ice40_himax_upduino2_humandet/compact_cnn;C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/dpram256x32;C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/dpram512x8;C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/dpram_lcd_fifo;C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/dpram_oled_fifo;C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/rom_himax_cfg_1fps;C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/rom_himax_cfg_324;C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/rom_himax_cfg_324_dim;C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/rom_himax_cfg_324_dim_maxfps;C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/rom_himax_cfg_324_faceid;C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/rom_himax_cfg_lcd;C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/src/radiant_mem/rom_himax_cfg_seq}
+
+#par_1 attributes
+set_option -job par_1 -add par
+
+#device options
+set_option -technology SBTICE40UP
+set_option -part iCE40UP5K
+set_option -package SG48
+set_option -speed_grade High-Performance_1.2V
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -top_module "lsc_ml_ice40_himax_humandet_top"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+
+# mapper_without_write_options
+set_option -frequency auto
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# Lattice iCE40UP
+set_option -lattice_software Radiant
+set_option -maxfan 1000
+set_option -rw_check_on_ram 0
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -retiming 0
+set_option -update_models_cp 0
+set_option -fix_gated_and_generated_clocks 0
+set_option -run_prop_extract 1
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+set_option -multi_file_compilation_unit 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/ice40_himax_upduino2_humandet/impl_1/ice40_himax_upduino2_humandet_impl_1.vm"
+
+#set log file 
+set_option log_file "C:/Users/vrang/Documents/GitHub/senseai/SoM/Himax/himax_humandet/ice40_himax_upduino2_humandet/impl_1/ice40_himax_upduino2_humandet_impl_1.srf" 
+impl -active "impl_1"

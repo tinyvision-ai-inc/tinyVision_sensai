@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<RadiantModule VendorName="Lattice Semiconductor Corporation" date="2019 03 21 14:54:27" generator="ipgen" module="ram_dp" name="dpram_oled_fifo" source_format="Verilog" version="1.0">
+ <Package>
+  <File modified="2019 03 21 14:54:27" name="rtl/dpram_oled_fifo_bb.v" type="black_box_verilog"/>
+  <File modified="2019 03 21 14:54:27" name="rtl/dpram_oled_fifo.v" type="top_level_verilog"/>
+  <File modified="2019 03 21 14:54:27" name="misc/dpram_oled_fifo_tmpl.vhd" type="template_vhdl"/>
+  <File modified="2019 03 21 14:54:27" name="misc/dpram_oled_fifo_tmpl.v" type="template_verilog"/>
+  <File modified="2019 03 21 14:54:27" name="dpram_oled_fifo.cfg" type="cfg"/>
+  <File modified="2017 11 09 01:48:21" name="rtl/core/lscc_ram_dp.v" type="core_verilog"/>
+ </Package>
+</RadiantModule>

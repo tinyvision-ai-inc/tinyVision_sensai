@@ -1,0 +1,62 @@
+ldc_set_location -site {38} [get_ports {cam_data[0]}]
+ldc_set_location -site {34} [get_ports {cam_data[1]}]
+ldc_set_location -site {37} [get_ports {cam_data[2]}]
+ldc_set_location -site {32} [get_ports {cam_data[3]}]
+ldc_set_location -site {35} [get_ports cam_pclk]
+ldc_set_location -site {25} [get_ports cam_vsync]
+ldc_set_location -site {26} [get_ports cam_hsync]
+ldc_set_location -site {10} [get_ports cam_scl]
+ldc_set_location -site {12} [get_ports cam_sda]
+ldc_set_location -site {42} [get_ports cam_mclk]
+ldc_set_location -site {23} [get_ports cam_trig]
+
+ldc_set_port -iobuf {IO_TYPE=LVCMOS18} [get_ports {cam_*}]
+
+ldc_set_location -site {15} [get_ports spi_clk]
+ldc_set_location -site {16} [get_ports spi_css]
+ldc_set_location -site {14} [get_ports spi_mosi]
+ldc_set_location -site {17} [get_ports spi_miso]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS18} [get_ports {spi_*}]
+
+ldc_set_location -site {46} [get_ports uart_txd]
+ldc_set_location -site {47} [get_ports uart_rxd]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports {uart_*}]
+
+ldc_set_location -site {45} [get_ports host_intr]
+ldc_set_location -site {3} [get_ports host_ssn]
+ldc_set_location -site {2} [get_ports host_miso]
+ldc_set_location -site {4} [get_ports host_mosi]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports {host_*}]
+
+ldc_set_location -site {46} [get_ports {gpio[0]}]
+ldc_set_location -site {47} [get_ports {gpio[1]}]
+ldc_set_location -site {48} [get_ports {gpio[2]}]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS33} [get_ports {gpio_*}]
+
+ldc_set_location -site {21} [get_ports i2s_sck]
+ldc_set_location -site {13} [get_ports i2s_ws]
+ldc_set_location -site {20} [get_ports i2s_dat]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS18} [get_ports {i2s_*}]
+
+ldc_set_location -site {43} [get_ports imager_snn]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS18} [get_ports imager_ssn]
+
+ldc_set_location -site {6} [get_ports sram_ssn]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS18} [get_ports sram_ssn]
+
+ldc_set_location -site {9} [get_ports imu_intr]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS18} [get_ports imu_intr]
+
+ldc_set_location -site {11} [get_ports sensor_miso]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS18} [get_ports sensor_miso]
+
+ldc_set_location -site {18} [get_ports mem_sio2]
+ldc_set_location -site {19} [get_ports mem_sio3]
+ldc_set_port -iobuf {IO_TYPE=LVCMOS18} [get_ports {mem_*}]
+
+
+#ldc_set_location -site {3} [get_ports debug_scl]
+#ldc_set_location -site {2} [get_ports debug_sda]
+
+
+create_clock -name {cam_pclk} -period 83.3333333333333 [get_ports cam_pclk]

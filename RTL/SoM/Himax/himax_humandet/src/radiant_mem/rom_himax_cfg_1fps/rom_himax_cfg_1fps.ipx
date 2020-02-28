@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<RadiantModule date="2019 05 16 16:53:34" generator="ipgen" library="module" module="rom" name="rom_himax_cfg_1fps" source_format="Verilog" vendor="latticesemi.com" version="1.0.0">
+ <Package>
+  <File modified="2019 05 16 16:53:34" name="rtl/rom_himax_cfg_1fps.v" type="top_level_verilog"/>
+  <File modified="2019 05 16 16:53:34" name="rtl/rom_himax_cfg_1fps_bb.v" type="black_box_verilog"/>
+  <File modified="2019 05 16 16:53:34" name="testbench/dut_params.v" type="testbench_parameters_verilog"/>
+  <File modified="2019 05 16 16:53:34" name="misc/rom_himax_cfg_1fps_tmpl.vhd" type="template_vhdl"/>
+  <File modified="2019 05 16 16:53:34" name="testbench/dut_inst.v" type="testbench_instance_verilog"/>
+  <File modified="2019 05 16 16:53:34" name="component.xml" type="IP-XACT_output_file"/>
+  <File modified="2019 05 16 16:53:34" name="rom_himax_cfg_1fps.cfg" type="cfg"/>
+  <File modified="2019 05 16 16:53:34" name="misc/rom_himax_cfg_1fps_tmpl.v" type="template_verilog"/>
+  <File modified="2019 01 30 07:04:57" name="testbench/tb_top.v" type="testbench_verilog"/>
+ </Package>
+</RadiantModule>

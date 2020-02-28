@@ -1,0 +1,23 @@
+@P:  Worst Slack : -2.803
+@P:  lsc_ml_ice40_himax_humandet_top|cam_pclk - Estimated Frequency : NA
+@P:  lsc_ml_ice40_himax_humandet_top|cam_pclk - Requested Frequency : 144.7 MHz
+@P:  lsc_ml_ice40_himax_humandet_top|cam_pclk - Estimated Period : NA
+@P:  lsc_ml_ice40_himax_humandet_top|cam_pclk - Requested Period : 6.912
+@P:  lsc_ml_ice40_himax_humandet_top|cam_pclk - Slack : NA
+@P:  lsc_ml_ice40_himax_humandet_top|oclk_in_inferred_clock - Estimated Frequency : 77.8 MHz
+@P:  lsc_ml_ice40_himax_humandet_top|oclk_in_inferred_clock - Requested Frequency : 91.6 MHz
+@P:  lsc_ml_ice40_himax_humandet_top|oclk_in_inferred_clock - Estimated Period : 12.848
+@P:  lsc_ml_ice40_himax_humandet_top|oclk_in_inferred_clock - Requested Period : 10.921
+@P:  lsc_ml_ice40_himax_humandet_top|oclk_in_inferred_clock - Slack : -1.927
+@P:  System - Estimated Frequency : 95.0 MHz
+@P:  System - Requested Frequency : 111.8 MHz
+@P:  System - Estimated Period : 10.524
+@P:  System - Requested Period : 8.945
+@P:  System - Slack : -1.579
+@P: lsc_ml_ice40_himax_humandet_top Part : ice40up5ksg48high-performance_1.2v
+@P: lsc_ml_ice40_himax_humandet_top I/O primitives : 23
+@P: lsc_ml_ice40_himax_humandet_top I/O Register bits : 0
+@P: lsc_ml_ice40_himax_humandet_top Register bits (Non I/O) : 2397 (45%)
+@P: lsc_ml_ice40_himax_humandet_top Block Rams : 25 of 30 (83%)
+@P: lsc_ml_ice40_himax_humandet_top Total Luts : 2165 of 5280 (41%)
+@P:  CPU Time : 0h:00m:19s

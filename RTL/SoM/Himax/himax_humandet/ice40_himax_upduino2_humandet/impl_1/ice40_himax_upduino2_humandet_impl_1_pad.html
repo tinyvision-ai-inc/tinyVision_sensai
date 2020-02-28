@@ -1,0 +1,303 @@
+<HTML>
+<HEAD>
+<TITLE>PAD Specification File</TITLE>
+<link href="file:///C:/lscc/radiant/1.1/data/theme/css/light/report.css" rel="stylesheet" type="text/css" media="screen"/>
+<link href="file:///C:/lscc/radiant/1.1/data/theme/css/print/report.css" rel="stylesheet" type="text/css" media="print"/>
+<style type="text/css">
+#toc {
+  position: fixed;
+  right: 2px;
+  top: 2px;
+  padding: 2px 5px 2px 5px;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+}
+#toc_list {
+  display: none;
+  }
+</style>
+
+<script type="text/javascript">
+<!--
+function showTocList() {
+var a = document.getElementById("toc_list");
+a.style.display = "block";
+}
+
+function hideTocList() {
+var a = document.getElementById("toc_list");
+if (a)
+    a.style.display = "none";
+}
+
+//-->
+</script>
+
+</HEAD>
+
+<BODY>
+
+<DIV id="content" onclick="hideTocList()"><PRE>
+<A name="Pad"></A>PAD Specification File
+***************************
+
+PART TYPE:        iCE40UP5K
+Performance Grade:      High-Performance_1.2V
+PACKAGE:          SG48
+Package Status:                     Preliminary    Version 1.5
+
+Sun Feb 09 12:44:33 2020
+
+Pinout by Port Name:
++-------------+----------+---------------+-------+----------------------+
+| Port Name   | Pin/Bank | Buffer Type   | Site  | Properties           |
++-------------+----------+---------------+-------+----------------------+
+| BLUn        | 41/0     | NA            | PR7A  |                      |
+| GRNn        | 40/0     | NA            | PR6A  |                      |
+| REDn        | 39/0     | NA            | PR5A  |                      |
+| cam_data[0] | 38/0     | LVCMOS18_IN   | PR9B  | PULL:100K            |
+| cam_data[1] | 34/0     | LVCMOS18_IN   | PR14B | PULL:100K            |
+| cam_data[2] | 37/0     | LVCMOS18_IN   | PR14A | PULL:100K            |
+| cam_data[3] | 32/0     | LVCMOS18_IN   | PR17A | PULL:100K            |
+| cam_hsync   | 26/0     | LVCMOS18_IN   | PR19A | PULL:100K            |
+| cam_mclk    | 42/0     | LVCMOS18_OUT  | PR9A  | DRIVE:4mA PULL:NA    |
+| cam_pclk    | 35/0     | LVCMOS18_IN   | PR13B | PULL:100K            |
+| cam_scl     | 10/1     | LVCMOS18_OUT  | PL17A | DRIVE:4mA PULL:NA    |
+| cam_sda     | 12/1     | LVCMOS18_OUT  | PL19A | DRIVE:4mA PULL:NA    |
+| cam_trig    | 23/0     | LVCMOS18_OUT  | PR20A | DRIVE:4mA PULL:NA    |
+| cam_vsync   | 25/0     | LVCMOS18_IN   | PR20B | PULL:100K            |
+| host_intr   | 45/2     | LVCMOS33_OUT  | PL8B  | DRIVE:8mA PULL:NA    |
+| host_miso   | 2/2      | LVCMOS33_OUT  | PL9A  | DRIVE:8mA PULL:NA    |
+| i2s_sck     | 21/1     | LVCMOS18_OUT  | PL19B | DRIVE:4mA PULL:NA    |
+| i2s_ws      | 13/1     | LVCMOS18_OUT  | PL20A | DRIVE:4mA PULL:NA    |
+| imager_ssn  | 20/1     | LVCMOS18_OUT  | PL20B | DRIVE:4mA PULL:NA    |
+| spi_clk     | 15/1     | LVCMOS18_BIDI | PL25A | DRIVE:4mA PULL:100K  |
+| spi_css     | 16/1     | LVCMOS18_OUT  | PL25B | DRIVE:4mA PULL:NA    |
+| spi_miso    | 17/1     | LVCMOS18_IN   | PL24B | PULL:100K            |
+| spi_mosi    | 14/1     | LVCMOS18_OUT  | PL24A | DRIVE:4mA PULL:NA    |
+| sram_ssn    | 6/1      | LVCMOS18_OUT  | PL14B | DRIVE:4mA PULL:NA    |
+| uart_rxd    | 47/2     | LVCMOS33_IN   | PL7A  | PULL:100K            |
+| uart_txd    | 46/2     | LVCMOS33_OUT  | PL6A  | DRIVE:8mA PULL:NA    |
++-------------+----------+---------------+-------+----------------------+
+
+Vccio by Bank:
++------+-------+
+| Bank | Vccio |
++------+-------+
+| 0    | 1.8V  |
+| 1    | 1.8V  |
+| 2    | 3.3V  |
++------+-------+
+
+<A name="pad_pin"></A><B><U><big>Pinout by Pin Number:</big></U></B>
++----------+---------------------+------------+---------------+-------+------------------+
+| Pin/Bank | Pin Info            | Constraint | Buffer Type   | Site  | Dual Function    |
++----------+---------------------+------------+---------------+-------+------------------+
+| 2/2      | host_miso           | LOCATED    | LVCMOS33_OUT  | PL9A  |                  |
+| 3/2      |     unused, PULL:UP |            |               | PL10B |                  |
+| 4/2      |     unused, PULL:UP |            |               | PL10A |                  |
+| 6/1      | sram_ssn            | LOCATED    | LVCMOS18_OUT  | PL14B |                  |
+| 9/1      |     unused, PULL:UP |            |               | PL16A |                  |
+| 10/1     | cam_scl             | LOCATED    | LVCMOS18_OUT  | PL17A |                  |
+| 11/1     |     unused, PULL:UP |            |               | PL18A |                  |
+| 12/1     | cam_sda             | LOCATED    | LVCMOS18_OUT  | PL19A |                  |
+| 13/1     | i2s_ws              | LOCATED    | LVCMOS18_OUT  | PL20A |                  |
+| 14/1     | spi_mosi            | LOCATED    | LVCMOS18_OUT  | PL24A | SPI_SO           |
+| 15/1     | spi_clk             | LOCATED    | LVCMOS18_BIDI | PL25A | SPISCK           |
+| 16/1     | spi_css             | LOCATED    | LVCMOS18_OUT  | PL25B | SPI_SS           |
+| 17/1     | spi_miso            | LOCATED    | LVCMOS18_IN   | PL24B | SPI_SI           |
+| 18/1     |     unused, PULL:UP |            |               | PL23B |                  |
+| 19/1     |     unused, PULL:UP |            |               | PL22B |                  |
+| 20/1     | imager_ssn          |            | LVCMOS18_OUT  | PL20B | PCLKT1_0         |
+| 21/1     | i2s_sck             | LOCATED    | LVCMOS18_OUT  | PL19B |                  |
+| 23/0     | cam_trig            | LOCATED    | LVCMOS18_OUT  | PR20A |                  |
+| 25/0     | cam_vsync           | LOCATED    | LVCMOS18_IN   | PR20B |                  |
+| 26/0     | cam_hsync           | LOCATED    | LVCMOS18_IN   | PR19A |                  |
+| 27/0     |     unused, PULL:UP |            |               | PR19B |                  |
+| 28/0     |     unused, PULL:UP |            |               | PR18A |                  |
+| 31/0     |     unused, PULL:UP |            |               | PR17B |                  |
+| 32/0     | cam_data[3]         | LOCATED    | LVCMOS18_IN   | PR17A |                  |
+| 34/0     | cam_data[1]         | LOCATED    | LVCMOS18_IN   | PR14B |                  |
+| 35/0     | cam_pclk            | LOCATED    | LVCMOS18_IN   | PR13B | GPLL_IN/PCLKT0_1 |
+| 36/0     |     unused, PULL:UP |            |               | PR10B |                  |
+| 37/0     | cam_data[2]         | LOCATED    | LVCMOS18_IN   | PR14A | PCLKT0_0         |
+| 38/0     | cam_data[0]         | LOCATED    | LVCMOS18_IN   | PR9B  |                  |
+| 39/0     | REDn                |            | NA            | PR5A  | RGB0             |
+| 40/0     | GRNn                |            | NA            | PR6A  | RGB1             |
+| 41/0     | BLUn                |            | NA            | PR7A  | RGB2             |
+| 42/0     | cam_mclk            | LOCATED    | LVCMOS18_OUT  | PR9A  |                  |
+| 43/0     |     unused, PULL:UP |            |               | PR10A |                  |
+| 44/2     |     unused, PULL:UP |            |               | PL7B  | PCLKT2_0         |
+| 45/2     | host_intr           | LOCATED    | LVCMOS33_OUT  | PL8B  |                  |
+| 46/2     | uart_txd            | LOCATED    | LVCMOS33_OUT  | PL6A  |                  |
+| 47/2     | uart_rxd            | LOCATED    | LVCMOS33_IN   | PL7A  |                  |
+| 48/2     |     unused, PULL:UP |            |               | PL8A  |                  |
+| PL6B/2   |     unused, PULL:UP |            |               | PL6B  |                  |
+| PL9B/2   |     unused, PULL:UP |            |               | PL9B  |                  |
+| PL13A/1  |     unused, PULL:UP |            |               | PL13A |                  |
+| PL13B/1  |     unused, PULL:UP |            |               | PL13B | PCLKT1_2         |
+| PL14A/1  |     unused, PULL:UP |            |               | PL14A | PCLKT1_1         |
+| PL15A/1  |     unused, PULL:UP |            |               | PL15A |                  |
+| PL15B/1  |     unused, PULL:UP |            |               | PL15B |                  |
+| PL16B/1  |     unused, PULL:UP |            |               | PL16B |                  |
+| PL17B/1  |     unused, PULL:UP |            |               | PL17B |                  |
+| PL18B/1  |     unused, PULL:UP |            |               | PL18B |                  |
+| PL21A/1  |     unused, PULL:UP |            |               | PL21A |                  |
+| PL21B/1  |     unused, PULL:UP |            |               | PL21B |                  |
+| PL22A/1  |     unused, PULL:UP |            |               | PL22A |                  |
+| PL23A/1  |     unused, PULL:UP |            |               | PL23A |                  |
+| PR13A/0  |     unused, PULL:UP |            |               | PR13A |                  |
+| PR18B/0  |     unused, PULL:UP |            |               | PR18B |                  |
+| PR22A/0  |     unused, PULL:UP |            |               | PR22A |                  |
++----------+---------------------+------------+---------------+-------+------------------+
+
+
+Locate Constraints for each Pin: 
+
+ldc_set_location -site {38} [ get_ports {cam_data[0]} ]
+ldc_set_location -site {34} [ get_ports {cam_data[1]} ]
+ldc_set_location -site {37} [ get_ports {cam_data[2]} ]
+ldc_set_location -site {32} [ get_ports {cam_data[3]} ]
+ldc_set_location -site {26} [ get_ports {cam_hsync} ]
+ldc_set_location -site {42} [ get_ports {cam_mclk} ]
+ldc_set_location -site {35} [ get_ports {cam_pclk} ]
+ldc_set_location -site {10} [ get_ports {cam_scl} ]
+ldc_set_location -site {12} [ get_ports {cam_sda} ]
+ldc_set_location -site {23} [ get_ports {cam_trig} ]
+ldc_set_location -site {25} [ get_ports {cam_vsync} ]
+ldc_set_location -site {45} [ get_ports {host_intr} ]
+ldc_set_location -site {2} [ get_ports {host_miso} ]
+ldc_set_location -site {21} [ get_ports {i2s_sck} ]
+ldc_set_location -site {13} [ get_ports {i2s_ws} ]
+ldc_set_location -site {20} [ get_ports {imager_ssn} ]
+ldc_set_location -site {15} [ get_ports {spi_clk} ]
+ldc_set_location -site {16} [ get_ports {spi_css} ]
+ldc_set_location -site {17} [ get_ports {spi_miso} ]
+ldc_set_location -site {14} [ get_ports {spi_mosi} ]
+ldc_set_location -site {6} [ get_ports {sram_ssn} ]
+ldc_set_location -site {47} [ get_ports {uart_rxd} ]
+ldc_set_location -site {46} [ get_ports {uart_txd} ]
+
+
+
+
+
+Copyright 2015 Lattice Semiconductor Corporation, All Rights Reserved
+Sun Feb 09 12:44:33 2020
+
+
+
+
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+</PRE></DIV>
+
+<DIV id="toc" class="radiant"><span onmousemove="showTocList()">Contents</span>
+<UL id="toc_list">
+<LI><A href=#pad_pin>Pinout by Pin Number</A></LI>
+</UL>
+</DIV>
+
+<button id="back_to_top" class="radiant" onclick="scrollToTop()">&lt;</button>
+<script type="text/javascript">
+<!--
+var scrollStep = 0;
+function scrollToTop(){
+  var funScroll = function() {
+    var top = document.body.scrollTop;
+    if (top == 0) {
+      scrollStep = 0;
+      return;
+    }
+    if (scrollStep == 0)
+      scrollStep = top/20 + 1;
+    top -= scrollStep;
+    if (top < 0)
+      top = 0;
+    document.body.scrollTop = top;
+    requestAnimationFrame(funScroll);
+  };
+  funScroll();
+}
+
+window.addEventListener('scroll', function(e) {
+  var backToTop = document.getElementById('back_to_top')
+  if (document.body.scrollTop > 0) {
+    backToTop.style.display = 'block';
+  } else {	backToTop.style.display = 'none'  }});
+
+//-->
+</script>
+
+<style type="text/css">
+#back_to_top {
+  bottom:20px; right:20px;
+  width:30px; height:30px;
+  font-size: 20px;
+  padding: 2px 5px 2px 5px;
+  position:fixed;
+  background-color:rgba(210,210,210,0.1);
+  border-style: solid;
+  border-color: rgba(192,192,192,0.8);
+  border-width:1px;
+  display:none;
+  -webkit-transform: rotate(90deg);
+  -webkit-transform-origin:50% 50%;
+}
+#back_to_top:focus {
+  outline-width:0px;
+}
+</style>
+
+</BODY>
+

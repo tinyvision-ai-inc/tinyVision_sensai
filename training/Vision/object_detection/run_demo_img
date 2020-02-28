@@ -1,0 +1,9 @@
+#rm ./data/test/img_out/*
+python ./src/demo.py --mode=image \
+                     --checkpoint=./logs/humancnt/train_32_96_n3/model.ckpt-249999 \
+		     --input_path="./data/test/img/cap_0611_face_1.png" \
+		     --out_dir=./data/test/img_out/ \
+		     --demo_net=squeezeDet
+
+# cap_32_96_r_n200.png  cap_32_96_r_n76.png  cap_32_96_r_p176.png
+# cap_0608_2.png cap_0611_face_1.png

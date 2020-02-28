@@ -1,0 +1,2 @@
+ckid0_0:@|S:genblk1\.u_hfosc.CLKHF@|E:u_ice40_humandet_clkgen.o_init@|F:@syn_dgcc_clockid0_0==1@|M:ClockId_0_0
+ckid0_1:@|S:cam_pclk@|E:genblk5\.u_ice40_himax_video_process_64.ro_waddr[7:0]@|F:@syn_dgcc_clockid0_1==1@|M:ClockId_0_1

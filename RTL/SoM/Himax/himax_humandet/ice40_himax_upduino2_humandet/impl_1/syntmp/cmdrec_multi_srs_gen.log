@@ -1,0 +1,7 @@
+C:\lscc\radiant\1.1\synpbase\bin64\syn_nfilter.exe  -link  -top  lsc_ml_ice40_himax_humandet_top  -multisrs  C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\ice40_himax_upduino2_humandet\impl_1\synwork\ice40_himax_upduino2_humandet_impl_1_comp.srs  -osyn  C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\ice40_himax_upduino2_humandet\impl_1\synwork\ice40_himax_upduino2_humandet_impl_1_mult.srs  -log  C:\Users\vrang\Documents\GitHub\senseai\SoM\Himax\himax_humandet\ice40_himax_upduino2_humandet\impl_1\synlog\ice40_himax_upduino2_humandet_impl_1_multi_srs_gen.srr 
+relcom:..\..\..\..\..\..\..\..\..\..\..\lscc\radiant\1.1\synpbase\bin64\syn_nfilter.exe -link -top lsc_ml_ice40_himax_humandet_top -multisrs ..\synwork\ice40_himax_upduino2_humandet_impl_1_comp.srs -osyn ..\synwork\ice40_himax_upduino2_humandet_impl_1_mult.srs -log ..\synlog\ice40_himax_upduino2_humandet_impl_1_multi_srs_gen.srr
+rc:0 success:1 runtime:1
+file:..\synwork\ice40_himax_upduino2_humandet_impl_1_comp.srs|io:i|time:1581280960|size:440432|exec:0|csum:4E64E774D2A7AB378D86E8486E06F66E
+file:..\synwork\ice40_himax_upduino2_humandet_impl_1_mult.srs|io:o|time:1581280962|size:14678|exec:0|csum:
+file:..\synlog\ice40_himax_upduino2_humandet_impl_1_multi_srs_gen.srr|io:o|time:1581280962|size:1269|exec:0|csum:
+file:..\..\..\..\..\..\..\..\..\..\..\lscc\radiant\1.1\synpbase\bin64\syn_nfilter.exe|io:i|time:1542386272|size:8731136|exec:1|csum:FDA9CE3068B3473AD3F7DDB573109F00

@@ -1,0 +1,283 @@
+----------------------------------------------------------------------
+Report for cell lsc_ml_ice40_himax_humandet_top.verilog
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                               BB_B        1       100.0
+                             CCU2_B      558       100.0
+                            FD1P3BZ       15       100.0
+                            FD1P3DZ     1456       100.0
+                            FD1P3IZ      915       100.0
+                            FD1P3JZ       11       100.0
+                            FD1P3XZ        9       100.0
+                                GND       23       100.0
+                              HSOSC        1       100.0
+                                 IB        9       100.0
+                                INV       76       100.0
+                              IOL_B        6       100.0
+                               LUT4     2165       100.0
+                              MAC16        6       100.0
+                                 OB       11       100.0
+                              OBZ_B        2       100.0
+                              PDP4K       25       100.0
+                                RGB        1       100.0
+                                VCC       23       100.0
+                                VHI        1       100.0
+                                VLO        1       100.0
+SUB MODULES 
+                        compact_cnn        1       100.0
+                      dpram256x32_0        1       100.0
+                      dpram256x32_1        1       100.0
+                         dpram512x8        1       100.0
+                      humandet_post        1       100.0
+          ice40_himax_video_process_64_NONE_UNSIGNED        1       100.0
+                       ice40_resetn        1       100.0
+                        lsc_i2cm_16        1       100.0
+          lsc_i2cm_himax_80_0_324x324_dim_0_1_2_3_7        1       100.0
+                 lsc_uart_103_512_0        1       100.0
+              lscc_ram_dp_Z2_layer0        1       100.0
+            lscc_ram_dp_Z3_layer0_0        1       100.0
+            lscc_ram_dp_Z3_layer0_1        1       100.0
+              lscc_ram_dq_Z1_layer0        1       100.0
+              rom_himax_cfg_324_dim        1       100.0
+               spi_loader_tri_spram        1       100.0
+          spi_loader_wrap_TRI_SPRAM        1       100.0
+                            
+                         TOTAL          5332           
+----------------------------------------------------------------------
+Report for cell compact_cnn.netlist
+     Instance path:  g_use_ml_on.II_0
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             CCU2_B      432        77.4
+                            FD1P3BZ        1         6.7
+                            FD1P3DZ     1051        72.2
+                            FD1P3IZ      825        90.2
+                            FD1P3JZ        2        18.2
+                                GND        7        30.4
+                                INV       58        76.3
+                               LUT4     1546        71.4
+                              MAC16        6       100.0
+                              PDP4K       19        76.0
+                                VCC        7        30.4
+                            
+                         TOTAL          3954           
+----------------------------------------------------------------------
+Report for cell humandet_post.netlist
+     Instance path:  u_speedsignal_post
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             CCU2_B        9         1.6
+                            FD1P3IZ       24         2.6
+                            FD1P3JZ        9        81.8
+                                GND        1         4.3
+                                INV       15        19.7
+                               LUT4       19         0.9
+                                VCC        1         4.3
+                            
+                         TOTAL            78           
+----------------------------------------------------------------------
+Report for cell ice40_himax_video_process_64_NONE_UNSIGNED.netlist
+     Instance path:  genblk5.u_ice40_himax_video_process_64
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             CCU2_B       63        11.3
+                            FD1P3BZ        2        13.3
+                            FD1P3DZ      167        11.5
+                            FD1P3IZ       21         2.3
+                                GND        5        21.7
+                               LUT4      236        10.9
+                              PDP4K        4        16.0
+                                VCC        5        21.7
+SUB MODULES 
+                      dpram256x32_0        1       100.0
+                      dpram256x32_1        1       100.0
+            lscc_ram_dp_Z3_layer0_0        1       100.0
+            lscc_ram_dp_Z3_layer0_1        1       100.0
+                            
+                         TOTAL           507           
+----------------------------------------------------------------------
+Report for cell dpram256x32_0.netlist
+  Original Cell name dpram256x32
+     Instance path:  genblk5.u_ice40_himax_video_process_64.u_ram256x32_ro
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DZ       24         1.6
+                                GND        2         8.7
+                               LUT4       48         2.2
+                              PDP4K        2         8.0
+                                VCC        2         8.7
+SUB MODULES 
+            lscc_ram_dp_Z3_layer0_1        1       100.0
+                            
+                         TOTAL            79           
+----------------------------------------------------------------------
+Report for cell lscc_ram_dp_Z3_layer0_1.netlist
+  Original Cell name lscc_ram_dp_Z3_layer0
+     Instance path:  genblk5.u_ice40_himax_video_process_64.u_ram256x32_ro.lscc_ram_dp_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3DZ       24         1.6
+                                GND        1         4.3
+                               LUT4       48         2.2
+                              PDP4K        2         8.0
+                                VCC        1         4.3
+                            
+                         TOTAL            76           
+----------------------------------------------------------------------
+Report for cell dpram256x32_1.netlist
+  Original Cell name dpram256x32
+     Instance path:  genblk5.u_ice40_himax_video_process_64.u_ram256x32_accu0
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GND        2         8.7
+                              PDP4K        2         8.0
+                                VCC        2         8.7
+SUB MODULES 
+            lscc_ram_dp_Z3_layer0_0        1       100.0
+                            
+                         TOTAL             7           
+----------------------------------------------------------------------
+Report for cell lscc_ram_dp_Z3_layer0_0.netlist
+  Original Cell name lscc_ram_dp_Z3_layer0
+     Instance path:  genblk5.u_ice40_himax_video_process_64.u_ram256x32_accu0.lscc_ram_dp_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GND        1         4.3
+                              PDP4K        2         8.0
+                                VCC        1         4.3
+                            
+                         TOTAL             4           
+----------------------------------------------------------------------
+Report for cell spi_loader_wrap_TRI_SPRAM.netlist
+     Instance path:  genblk4.u_spi_loader
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             CCU2_B       18         3.2
+                            FD1P3BZ        7        46.7
+                            FD1P3DZ       71         4.9
+                            FD1P3IZ       19         2.1
+                                GND        2         8.7
+                               LUT4      132         6.1
+                                VCC        2         8.7
+SUB MODULES 
+               spi_loader_tri_spram        1       100.0
+                            
+                         TOTAL           252           
+----------------------------------------------------------------------
+Report for cell spi_loader_tri_spram.netlist
+     Instance path:  genblk4.u_spi_loader.g_on_code_tri_spram.u_spi_loader
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             CCU2_B       18         3.2
+                            FD1P3BZ        7        46.7
+                            FD1P3DZ       71         4.9
+                            FD1P3IZ       19         2.1
+                                GND        1         4.3
+                               LUT4      132         6.1
+                                VCC        1         4.3
+                            
+                         TOTAL           249           
+----------------------------------------------------------------------
+Report for cell lsc_uart_103_512_0.netlist
+     Instance path:  g_on_en_uart.u_lsc_uart
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             CCU2_B       23         4.1
+                            FD1P3BZ        2        13.3
+                            FD1P3DZ       79         5.4
+                            FD1P3IZ       26         2.8
+                                GND        3        13.0
+                               LUT4      145         6.7
+                              PDP4K        1         4.0
+                                VCC        3        13.0
+SUB MODULES 
+                         dpram512x8        1       100.0
+              lscc_ram_dp_Z2_layer0        1       100.0
+                            
+                         TOTAL           284           
+----------------------------------------------------------------------
+Report for cell dpram512x8.netlist
+     Instance path:  g_on_en_uart.u_lsc_uart.genblk1.u_ram512x8_0
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GND        2         8.7
+                              PDP4K        1         4.0
+                                VCC        2         8.7
+SUB MODULES 
+              lscc_ram_dp_Z2_layer0        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell lscc_ram_dp_Z2_layer0.netlist
+     Instance path:  g_on_en_uart.u_lsc_uart.genblk1.u_ram512x8_0.lscc_ram_dp_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GND        1         4.3
+                              PDP4K        1         4.0
+                                VCC        1         4.3
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell lsc_i2cm_himax_80_0_324x324_dim_0_1_2_3_7.netlist
+     Instance path:  u_lsc_i2cm_himax
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             CCU2_B       13         2.3
+                            FD1P3BZ        3        20.0
+                            FD1P3DZ       69         4.7
+                                GND        4        17.4
+                               LUT4       62         2.9
+                              PDP4K        1         4.0
+                                VCC        4        17.4
+SUB MODULES 
+                        lsc_i2cm_16        1       100.0
+              lscc_ram_dq_Z1_layer0        1       100.0
+              rom_himax_cfg_324_dim        1       100.0
+                            
+                         TOTAL           159           
+----------------------------------------------------------------------
+Report for cell rom_himax_cfg_324_dim.netlist
+     Instance path:  u_lsc_i2cm_himax.genblk1.u_rom_himax_cfg
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GND        2         8.7
+                              PDP4K        1         4.0
+                                VCC        2         8.7
+SUB MODULES 
+              lscc_ram_dq_Z1_layer0        1       100.0
+                            
+                         TOTAL             6           
+----------------------------------------------------------------------
+Report for cell lscc_ram_dq_Z1_layer0.netlist
+     Instance path:  u_lsc_i2cm_himax.genblk1.u_rom_himax_cfg.lscc_ram_dq_inst
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                                GND        1         4.3
+                              PDP4K        1         4.0
+                                VCC        1         4.3
+                            
+                         TOTAL             3           
+----------------------------------------------------------------------
+Report for cell lsc_i2cm_16.netlist
+     Instance path:  u_lsc_i2cm_himax.u_lsc_i2cm
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                             CCU2_B        9         1.6
+                            FD1P3BZ        2        13.3
+                            FD1P3DZ       41         2.8
+                                GND        1         4.3
+                               LUT4       44         2.0
+                                VCC        1         4.3
+                            
+                         TOTAL            98           
+----------------------------------------------------------------------
+Report for cell ice40_resetn.netlist
+     Instance path:  u_resetn
+                                          Cell usage:
+                               cell       count    Res Usage(%)
+                            FD1P3XZ        9       100.0
+                                GND        1         4.3
+                               LUT4       16         0.7
+                                VCC        1         4.3
+                            
+                         TOTAL            27           

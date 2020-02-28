@@ -1,0 +1,37 @@
+DRC: Design Rule Check Radiant Software (64-bit) 1.1.0.165.1  Patch Version(s) 6251
+Sun Feb 09 10:38:30 2020
+
+WARNING - Top module port 'debug_scl' does not connect to anything.
+WARNING - Top module port 'debug_sda' does not connect to anything.
+WARNING - Top module port 'i2s_dat' does not connect to anything.
+ERROR - IO placement will fail due to Bank Vccio compatibility. To correct this issue, please use more Bank VCCIO compatible IO attribute combinations, reduce the number of different IO attribute combinations, and/or change to a larger device with more IO Banks.
+The following is information that can help with addressing the IO placement Bank VCCIO compatibility issue:
+Design has 24 IOs to be placed across 3 IO Banks
+	Bank 0 with capacity 17 can/should have Bank VCCIO value(s) [1.8] based on current design Constraints
+	Bank 1 with capacity 14 can/should have Bank VCCIO value(s) [1.8] based on current design Constraints
+	Bank 2 with capacity 8 can/should have Bank VCCIO value(s) [3.3] based on current design Constraints
+Port cam_vsync can have Bank Vccio value(s) [1.8]
+Port spi_miso can have Bank Vccio value(s) [1.8]
+Port cam_scl can have Bank Vccio value(s) [1.8]
+Port standby can have Bank Vccio value(s) [3.3]
+Port BLUn can have Bank Vccio value(s) [3.3]
+Port REDn can have Bank Vccio value(s) [3.3]
+Port cam_mclk can have Bank Vccio value(s) [1.8]
+Port cam_trig can have Bank Vccio value(s) [1.8]
+Port cam_data[1] can have Bank Vccio value(s) [1.8]
+Port cam_sda can have Bank Vccio value(s) [1.8]
+Port cam_data[2] can have Bank Vccio value(s) [1.8]
+Port host_intr can have Bank Vccio value(s) [3.3]
+Port i2s_sck can have Bank Vccio value(s) [3.3]
+Port cam_pclk can have Bank Vccio value(s) [1.8]
+Port cam_hsync can have Bank Vccio value(s) [1.8]
+Port spi_css can have Bank Vccio value(s) [1.8]
+Port uart_txd can have Bank Vccio value(s) [3.3]
+Port spi_clk can have Bank Vccio value(s) [1.8]
+Port cam_data[3] can have Bank Vccio value(s) [1.8]
+Port spi_mosi can have Bank Vccio value(s) [1.8]
+Port GRNn can have Bank Vccio value(s) [3.3]
+Port i2s_ws can have Bank Vccio value(s) [3.3]
+Port cam_data[0] can have Bank Vccio value(s) [1.8]
+Port uart_rxd can have Bank Vccio value(s) [3.3]
+
