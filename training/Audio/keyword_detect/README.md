@@ -1,3 +1,4 @@
+
 # **Keyphrase Detection Training using TensorFlow 1.14.0**
 
 This repo provides the tools for training a neural network model for keyword/keyphrase detection. Some of the Python codes have been borrowed from the demo package released by Lattice Semiconductor regarding keyphrase detection using their ICE40 FPGA boards.
@@ -21,8 +22,8 @@ source ./Scripts/activate
 
 2. Clone this repository and store it inside the folder corresponding to the virtual environment
 ~~~
-git clone https://github.com/chatterjeesandipan/keyphrase_detection.git
-cd ./keyphrase_detection
+git clone https://github.com/tinyvision-ai-inc/tinyVision_sensai.git
+cd ./tinyVision_sensai/training/Audio/keyword_detect/
 ~~~
 
 3. Install the necessary python packages using the requirements.txt file
@@ -36,7 +37,7 @@ pip3 install -r requirements.txt
     python audio_data_download.py --dataset=2
     ~~~
     
-5. Open the config.sh file with an editor, for example NotePad++. 
+5. Open the config.sh file with an editor, for example Virtual Studio Code (recommended) or NotePad++. 
     - In this file, mention the location of the data (sample rate converted) that will be used for training. For example, if you downloaded speech commands dataset 2:
     ~~~
     export DATA_DIR=../data/speech_commands_set_2_SR_8000/
@@ -107,5 +108,16 @@ cd ./Training
 ~~~
 ./train.sh
 ~~~
+- The two training steps take about 48 hours on my laptop (Intel i7, 16 GB RAM, Nvidia 960M 2GB). So sitback and relax. The training speed is not very high.
 
-10. The two steps take about 48 hours on my laptop (Intel i7, 16 GB RAM, Nvidia 960M 2GB). So sitback and relax. The training speed is not very high. Significant gains are expected if the training is performed on Colab. The Colab script for training keyphrase detection models will be uploaded soon to this repo.
+10. Create .pbtxt file by running the following shell script
+~~~
+./genpbtxt.sh
+~~~
+
+11. Create the .pb frozen graph for inference by running the following Python script
+~~~
+python ./genpb.py --ckpt_dir =./{Current_Training_Logs_Folder_Name}/set_prefilter
+~~~
+
+12. Use the generated .pb file as well as a couple of training images with Lattice SensAI Neural Network Compiler to create the binary files for the trained audio filter and the keyword detection model.
